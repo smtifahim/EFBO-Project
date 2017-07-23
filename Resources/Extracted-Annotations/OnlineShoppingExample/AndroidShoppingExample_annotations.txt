@@ -1,0 +1,99 @@
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:24	"Click CART icon" hasNextEvent "Display Price Summary"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ProductActivity.java
+Line:79	addToCartButton isInterfaceOf "Click ADD TO CART Button"
+Line:56	ItemDisplayInterface isInterfaceOf "Select a Product Item"
+Line:48	ProductActivityClass isInterfaceOf "Display Selected Product Details"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:40	CheckoutActivity isInterfaceOf "Display Price Summary"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:125	"Click PAY WITH PAYPAL Button" hasNextEvent "Send Payment Verification to Server"
+Line:126	PayPalCheckoutActivityClass isInterfaceOf "Send Payment Verification to Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ShoppingActivity.java
+Line:16	Event_Start hasNextEvent "Display Product List"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:84	checkButton isInterfaceOf "Click CHECKOUT Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ProductActivity.java
+Line:90	addToCartButton hasInteractionWith user-agent
+Line:87	"Click CART Icon" hasInterface cartIcon
+Line:88	user-agent interactsWith cartIcon
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:137	PayPalServerInterface hasInteractionWith server-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ShoppingActivity.java
+Line:27	ShoppingActivityClass isInterfaceOf "Display Product List"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ProductActivity.java
+Line:84	ProductActivityClass isInterfaceOf "Add Selected Item to the Cart"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:160	PayPalCheckoutActivityClass isInterfaceOf "Receive Successful Payment Message from Server"
+Line:167	PayPalCheckoutActivityClass isInterfaceOf "Receive Failed Payment Message from Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:87	checkButton hasInteractionWith user-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:68	PayPalCheckoutActivityClass hasElement payPalButton
+Line:36	PayPalCheckoutActivityClass hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ShoppingActivity.java
+Line:17	ShoppingActivityClass hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:26	CheckoutActivity hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:161	"Verify Payment" hasNextEvent "Receive Successful Payment Message from Server"
+Line:72	payPalButton hasInteractionWith user-agent
+Line:136	PayPalServerInterface isInterfaceOf "Verify Payment"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:91	"Click CHECKOUT Button" hasNextEvent "Display Pay with PayPal Screen"
+Line:83	"Click CONTINUE SHOPPING Button" isAlternateEventOf "Click CHECKOUT Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:54	"Display Pay with PayPal Screen" hasInterface PayPalCheckoutActivityClass
+Line:168	"Verify Payment" hasNextEvent "Receive Failed Payment Message from Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ProductActivity.java
+Line:71	ItemDisplayInterface hasInteractionWith user-agent
+Line:83	"Click ADD TO CART Button" hasNextEvent "Add Selected Item to the Cart"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:77	"Click CONTINUE SHOPPING Button" hasNextEvent "Display Product List"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ProductActivity.java
+Line:29	ProductActivityClass hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:73	shoppingButton hasInteractionWith user-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:165	"Receive Failed Payment Message from Server" isAlternateEventOf "Receive Successful Payment Message from Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ProductActivity.java
+Line:86	"Display Cart Icon" hasNextEvent "Click CART Icon"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\CheckoutActivity.java
+Line:69	shoppingButton isInterfaceOf "Click CONTINUE SHOPPING Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:69	payPalButton isInterfaceOf "Click PAY WITH PAYPAL Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ProductActivity.java
+Line:82	"Click ADD TO CART Button" hasNextEvent "Display Cart Icon"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\ShoppingActivity.java
+Line:39	"Display Product List" hasNextEvent "Select a Product"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\AndroidOnlineShopping\PayPalCheckoutActivity.java
+Line:132	"Send Payment Verification to Server" hasNextEvent "Verify Payment"

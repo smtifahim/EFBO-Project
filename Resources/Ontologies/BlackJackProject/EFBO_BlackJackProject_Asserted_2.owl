@@ -1,0 +1,2652 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.cs.queensu.ca/~imam/ontologies/efbo-v.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-v.owl">
+    <Prefix name="" IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-v.owl"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="efbo" IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Import>file:///C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Extracted-Kbases/BlackJackProject/AndroidBlackJack/EFBO-AndroidBlackJack.owl</Import>
+    <Import>http://www.cs.queensu.ca/~imam/ontologies/efbo.owl</Import>
+    <Import>http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl</Import>
+    <Import>file:///C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Extracted-Kbases/BlackJackProject/iosBlackJack/EFBO-iosBlackJack.owl</Import>
+    <Declaration>
+        <Class IRI="#ParticipantEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_Activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="efbo:hasInteractionWith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventTriggeredByUserAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventInvokedByUserAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="efbo:hasInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InconsistentEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_SharedClientServerActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_WhatFollowsDecisionPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventWithInconsistentFlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_ActivityBeforeDecisionPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_ClientAgentActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventInvokedByClientAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventWithInconsistentPreviousEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventTriggeredByServerAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventWithConsistentNextEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_AcitivityByClientInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventInvokedByServerAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_WhatLeadsToDecisionPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMappingAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventInvokedByServerAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParticipantSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_ActivityByFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_AcitivityByClientInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_ActivityByFunctionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_UserAgentActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_UserAgentActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventWithConsistentFlow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_WhatLeadsToDecisionPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_ActivityByUserInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventTriggeredByUserAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventWithConsistentAltEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_ActivityAfterDecisionPointEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventWithParallelEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_ClientAgentActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_ServerAgentActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventInvokedByUserAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="efbo:isAlternateEventOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventWithMutuallyExclusiveEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_ActivityAfterDecisionPointEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventWithMutuallyExclusiveEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_ActivityByUserInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMappingInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsistentPreviousEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventTriggeredByClientAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventWithConsistentPreviousEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_Agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMappingEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#systemValidationProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="efbo:isInterfaceOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_ActivityByServerInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="efbo:hasPreviousEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventTriggeredByClientAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_ServerAgentActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventTriggeredByServerAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_EventInvokedByClientAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_ActivityBeforeDecisionPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsistentAltEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_DecisionPointEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_EventWithParallelEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_ActivityByServerInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsistentEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_DecisionPointEvent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsistentEventFlow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConsistentNextEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-2_SharedClientServerActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="efbo:hasNextEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventWithInconsistentNextEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemValidationEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System-1_WhatFollowsDecisionPoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayPlayerWonMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickLetsPlayButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluatePlayerOutcome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ShowDealerHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayHITButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluateGameOutcome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#System-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.ClickPLAYAGAINButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#System-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.HideSTAYButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayDealerHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateGameStats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayDealerScore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerWins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Event_Start"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisPLAYER_WIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdatePlayerScore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideLetsPlayButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayLetsPlayButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerBusted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickNewGameButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisDEALER_BUST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.ClickBetButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.MainActivity.java.Event_Start"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DealAnotherPlayerCard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.MainActivity.java.ClickPlayButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickStandButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Outcomeisdraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickHitButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.DealAdditionalPlayerCard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideStandButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisDEALER_WIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerWins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerScore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerBusted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.DisplayPlayerHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerBustedMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerWinsMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayNewGameButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.ClickSTAYButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateDealerScore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluatePlayerOutcome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayPUSHMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideHitButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayHitButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayOver21PlayerLostMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.HideHITButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDraw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayStandButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplaySTAYButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.ClickHITButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisPLAYER_BUST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.DisplayDealerHand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickOKButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayPlayerScore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayDealerBustedMessage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisPUSH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerScore"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#EventWithConsistentAltEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#System-1_Event"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasConsistentAltEvent"/>
+                <Class IRI="#System-2_Event"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EventWithConsistentFlow"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#System-1_Event"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasConsistentEventFlow"/>
+                <Class IRI="#System-2_Event"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EventWithConsistentNextEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#System-1_Event"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasConsistentNextEvent"/>
+                <Class IRI="#System-2_Event"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EventWithConsistentPreviousEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#System-1_Event"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasConsistentPreviousEvent"/>
+                <Class IRI="#System-2_Event"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EventWithInconsistentFlow"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#System-1_Event"/>
+            <ObjectComplementOf>
+                <Class IRI="#EventWithConsistentFlow"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EventWithInconsistentNextEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#System-1_Event"/>
+            <ObjectComplementOf>
+                <Class IRI="#EventWithConsistentNextEvent"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EventWithInconsistentPreviousEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#System-1_Event"/>
+            <ObjectComplementOf>
+                <Class IRI="#EventWithConsistentPreviousEvent"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ParticipantSystem"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:System"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:hasSystemEntity"/>
+                <Class IRI="#ParticipantEntity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ParticipantSystem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:hasSystemEntity"/>
+                <Class IRI="#System-1_Entity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_AcitivityByClientInterface"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByClientInterface"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_Action"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Action"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_Activity"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Activity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_ActivityAfterDecisionPointEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityAfterDecesionPoint"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_ActivityBeforeDecisionPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityBeforeDecesionPoint"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_ActivityByFunctionality"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByFunctionality"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_ActivityByServerInterface"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByServerInterface"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_ActivityByUserInterface"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByUserInterface"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_Agent"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Agent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_ClientAgentActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ClientAgentActivity"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_DecisionPointEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#DecisionPointEvent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_Entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ParticipantEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_Event"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Event"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventInvokedByClientAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventInvokedByClientAgent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventInvokedByServerAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventInvokedByServerAgent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventInvokedByUserAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventInvokedByUserAgent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventTriggeredByClientAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventTriggeredByClientAgent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventTriggeredByServerAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventTriggeredByServerAgent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventTriggeredByUserAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventTriggeredByUserAgent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventWithMutuallyExclusiveEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventWithMutuallyExclusiveEvent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_EventWithParallelEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventWithParallelEvent"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_Interface"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Interface"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_ServerAgentActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ServerAgentActivity"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_SharedClientServerActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#SharedClientServerActivity"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_UserAgentActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#UserAgentActivity"/>
+            <Class IRI="#System-1_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_WhatFollowsDecisionPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#WhatFollowsDecisionPoint"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-1_WhatLeadsToDecisionPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#WhatLeadsToDecisionPoint"/>
+            <Class IRI="#System-1_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ParticipantSystem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:hasSystemEntity"/>
+                <Class IRI="#System-2_Entity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_AcitivityByClientInterface"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByClientInterface"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_Action"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Action"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_Activity"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Activity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_ActivityAfterDecisionPointEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityAfterDecesionPoint"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_ActivityBeforeDecisionPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityBeforeDecesionPoint"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_ActivityByFunctionality"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByFunctionality"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_ActivityByServerInterface"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByServerInterface"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_ActivityByUserInterface"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ActivityByUserInterface"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_Agent"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Agent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_ClientAgentActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ClientAgentActivity"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_DecisionPointEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#DecisionPointEvent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_Entity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ParticipantEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_Event"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Event"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventInvokedByClientAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventInvokedByClientAgent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventInvokedByServerAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventInvokedByServerAgent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventInvokedByUserAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventInvokedByUserAgent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventTriggeredByClientAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventTriggeredByClientAgent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventTriggeredByServerAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventTriggeredByServerAgent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventTriggeredByUserAgent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventTriggeredByUserAgent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventWithMutuallyExclusiveEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventWithMutuallyExclusiveEvent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_EventWithParallelEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#EventWithParallelEvent"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_Interface"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="efbo:Interface"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="efbo:isSystemEntityOf"/>
+                <Class IRI="#System-2"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_ServerAgentActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#ServerAgentActivity"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_SharedClientServerActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#SharedClientServerActivity"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_UserAgentActivity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#UserAgentActivity"/>
+            <Class IRI="#System-2_Activity"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_WhatFollowsDecisionPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#WhatFollowsDecisionPoint"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#System-2_WhatLeadsToDecisionPoint"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-frc.owl#WhatLeadsToDecisionPoint"/>
+            <Class IRI="#System-2_Event"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ConsistentEvent"/>
+        <Class IRI="#SystemValidationEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventWithConsistentAltEvent"/>
+        <Class IRI="#ConsistentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventWithConsistentFlow"/>
+        <Class IRI="#ConsistentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventWithConsistentNextEvent"/>
+        <Class IRI="#ConsistentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventWithConsistentPreviousEvent"/>
+        <Class IRI="#ConsistentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventWithInconsistentFlow"/>
+        <Class IRI="#InconsistentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventWithInconsistentNextEvent"/>
+        <Class IRI="#InconsistentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventWithInconsistentPreviousEvent"/>
+        <Class IRI="#InconsistentEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InconsistentEvent"/>
+        <Class IRI="#SystemValidationEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParticipantEntity"/>
+        <Class IRI="#SystemValidationEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParticipantSystem"/>
+        <Class IRI="#SystemValidationEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-1_Action"/>
+        <Class IRI="#System-1_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-1_Activity"/>
+        <Class IRI="#System-1_Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-1_Agent"/>
+        <Class IRI="#System-1_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-1_Event"/>
+        <Class IRI="#System-1_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-1_Interface"/>
+        <Class IRI="#System-1_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-2"/>
+        <Class IRI="#ParticipantSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-2_Action"/>
+        <Class IRI="#System-2_Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-2_Activity"/>
+        <Class IRI="#System-2_Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-2_Agent"/>
+        <Class IRI="#System-2_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-2_Event"/>
+        <Class IRI="#System-2_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System-2_Interface"/>
+        <Class IRI="#System-2_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemValidationEntity"/>
+        <Class abbreviatedIRI="efbo:EntityClassifier"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#System-1"/>
+        <Class IRI="#System-2"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#System-2"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#System-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#System-1"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#System-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickOKButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickOKButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickOKButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickOKButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DealAnotherPlayerCard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DealAnotherPlayerCard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DealAnotherPlayerCard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerBustedMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerBustedMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerBustedMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerWinsMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerWinsMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerWinsMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerWinsMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayNewGameButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluateGameOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluateGameOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluateGameOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluateGameOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluatePlayerOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluatePlayerOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluatePlayerOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluatePlayerOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Event_Start"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Event_Start"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Event_Start"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Event_Start"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideHitButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideLetsPlayButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideStandButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerBusted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerBusted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerBusted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerWins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerWins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerWins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerWins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerBusted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerBusted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerBusted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerBusted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerWins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerWins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerWins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Outcomeisdraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Outcomeisdraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Outcomeisdraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Outcomeisdraw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ShowDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ShowDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ShowDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ShowDealerHand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateDealerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateGameStats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateGameStats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateGameStats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdateGameStats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentAltEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdatePlayerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentFlow"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdatePlayerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentNextEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdatePlayerScore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectComplementOf>
+            <Class IRI="#EventWithConsistentPreviousEvent"/>
+        </ObjectComplementOf>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.UpdatePlayerScore"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickHitButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.ClickHITButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickLetsPlayButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.MainActivity.java.ClickPlayButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickNewGameButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.ClickBetButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ClickStandButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.ClickSTAYButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DealAnotherPlayerCard"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.DealAdditionalPlayerCard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerBustedMessage"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayDealerBustedMessage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerHand"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.DisplayDealerHand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayDealerScore"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayDealerScore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayPUSHMessage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayHitButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayHITButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayNewGameButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.ClickPLAYAGAINButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayOver21PlayerLostMessage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerHand"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameActivity.java.DisplayPlayerHand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerScore"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayPlayerScore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayPlayerWonMessage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.DisplayStandButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplaySTAYButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.EvaluatePlayerOutcome"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluatePlayerOutcome"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Event_Start"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.MainActivity.java.Event_Start"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideHitButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.HideHITButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.HideStandButton"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.HideSTAYButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerBusted"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisDEALER_BUST"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisDealerWins"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisDEALER_WIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerBusted"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisPLAYER_BUST"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.OutcomeisPlayerWins"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisPLAYER_WIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.Outcomeisdraw"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.EvaluationisPUSH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/iosBlackJack.owl#iosBlackJack.BlackJackViewController.m.ShowDealerHand"/>
+        <NamedIndividual IRI="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidBlackJack.owl#AndroidBlackJack.GameFragment.java.DisplayDealerHand"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConsistentAltEvent"/>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+        <ObjectProperty IRI="#systemValidationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConsistentEventFlow"/>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConsistentNextEvent"/>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConsistentPreviousEvent"/>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMappingAgent"/>
+        <ObjectProperty IRI="#hasMappingEntity"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMappingEntity"/>
+        <ObjectProperty IRI="#systemValidationProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <ObjectProperty IRI="#hasMappingEntity"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMappingInterface"/>
+        <ObjectProperty IRI="#hasMappingEntity"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMappingAgent"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMappingInterface"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+        <Class IRI="#System-1_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMappingAgent"/>
+        <Class IRI="#System-1_Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <Class IRI="#System-1_Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMappingInterface"/>
+        <Class IRI="#System-1_Interface"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConsistentEvent"/>
+        <Class IRI="#System-2_Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMappingAgent"/>
+        <Class IRI="#System-2_Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMappingEvent"/>
+        <Class IRI="#System-2_Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMappingInterface"/>
+        <Class IRI="#System-2_Interface"/>
+    </ObjectPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule to define the hasConsistentEvent property.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">R3: hasConsistentEventFlow</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasConsistentPreviousEvent"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasConsistentNextEvent"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xp"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasConsistentEventFlow"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xp"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">R2: hasConsistentPreviousEvent</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingEvent"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#yp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:hasPreviousEvent"/>
+                <Variable IRI="#yp"/>
+                <Variable IRI="#xp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingEvent"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:hasNextEvent"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasConsistentPreviousEvent"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#yp"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule to define hasMappingInterface between two consistent events.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">R6: hasMappingInterface</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingEvent"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:hasInterface"/>
+                <Variable IRI="#xp"/>
+                <Variable IRI="#xpi"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:hasInterface"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xi"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingInterface"/>
+                <Variable IRI="#xi"/>
+                <Variable IRI="#xpi"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">R8: hasMappingAgent</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:isInvokedBy"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:isInvokedBy"/>
+                <Variable IRI="#xp"/>
+                <Variable IRI="#xpa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingEvent"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xp"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingAgent"/>
+                <Variable IRI="#xa"/>
+                <Variable IRI="#xpa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rule to define the hasConsistentAltEvent property.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">R4: hasConsistentAltEvent</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingEvent"/>
+                <Variable IRI="#xa"/>
+                <Variable IRI="#xpa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:isAlternateEventOf"/>
+                <Variable IRI="#xp"/>
+                <Variable IRI="#xpa"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:isAlternateEventOf"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#xa"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasConsistentAltEvent"/>
+                <Variable IRI="#xa"/>
+                <Variable IRI="#xpa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">R1: hasConsistentNextEvent</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingEvent"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#yp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:hasNextEvent"/>
+                <Variable IRI="#yp"/>
+                <Variable IRI="#zp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMappingEvent"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#zp"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="efbo:hasPreviousEvent"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasConsistentNextEvent"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#yp"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConsistentEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Consistent Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EventWithConsistentAltEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event With Consistent Alternate Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EventWithConsistentFlow</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event With Consistent Flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EventWithConsistentNextEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event With Consistent Next Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EventWithConsistentPreviousEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event With Consistent Previous Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EventWithInconsistentFlow</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event With Inconsistent Flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EventWithInconsistentNextEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event With Inconsistent Next Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EventWithInconsistentPreviousEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Event With Inconsistent Previous Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InconsistentEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inconsistent Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ParticipantEntity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participant Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ParticipantSystem</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participant System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_AcitivityByClientInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Activity by Clienet Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_Action</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1 Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_Activity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1 Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_ActivityAfterDecisionPointEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Activity After Decesion Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_ActivityBeforeDecisionPoint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Activity Before Decesion Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_ActivityByFunctionality</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Activity by Functionality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_ActivityByServerInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Activity by Server Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_ActivityByUserInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Activity by User Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_Agent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1 Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_ClientAgentActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Client Agent Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_DecisionPointEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Decision Point Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_Entity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1 Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_Event</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1 Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventInvokedByClientAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Event Invoked by Client Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventInvokedByServerAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Event Invoked by Server Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventInvokedByUserAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Event Invoked by User Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventTriggeredByClientAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Event Triggered by Client Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventTriggeredByServerAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Event Triggered by Server Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventTriggeredByUserAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Event Triggered by User Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventWithMutuallyExclusiveEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Mutually Exclusive Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_EventWithParallelEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Parallel Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_Interface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1 Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_ServerAgentActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Server Agent Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_SharedClientServerActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: Shared Client-Srever Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_UserAgentActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: User Agent Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_WhatFollowsDecisionPoint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: What Follows Decision Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-1_WhatLeadsToDecisionPoint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-1: What Leads To Decision Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_AcitivityByClientInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Activity by Clienet Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_Action</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2 Action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_Activity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2 Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_ActivityAfterDecisionPointEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Activity After Decesion Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_ActivityBeforeDecisionPoint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Activity Before Decesion Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_ActivityByFunctionality</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Activity by Functionality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_ActivityByServerInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Activity by Server Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_ActivityByUserInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Activity by User Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_Agent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2 Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_ClientAgentActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Client Agent Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_DecisionPointEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Decision Point Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_Entity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2 Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_Event</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2 Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventInvokedByClientAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Event Invoked by Client Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventInvokedByServerAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Event Invoked by Server Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventInvokedByUserAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Event Invoked by User Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventTriggeredByClientAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Event Triggered by Client Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventTriggeredByServerAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Event Triggered by Server Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventTriggeredByUserAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Event Triggered by User Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventWithMutuallyExclusiveEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Mutually Exclusive Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_EventWithParallelEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Parallel Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_Interface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2 Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_ServerAgentActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Server Agent Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_SharedClientServerActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: Shared Client-Srever Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_UserAgentActivity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: User Agent Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_WhatFollowsDecisionPoint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: What Follows Decision Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#System-2_WhatLeadsToDecisionPoint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-2: What Leads to Decision Point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SystemValidationEntity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System Validation Entity</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

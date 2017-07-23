@@ -1,0 +1,88 @@
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\IosBlackJack\BlackJackViewController.m
+Line:24	playerLabel hasInteractionWith client-agent
+Line:72	"Display Game Draw Message" hasInterface "Alert Dialog"
+Line:57	"Deal Another Player Card" hasInterface BlackJackViewController
+Line:41	"Click Hit Button" hasInterface standButton
+Line:40	"Display Stand Button" hasNextEvent "Click Stand Button"
+Line:38	hitButton hasInteractionWith user-agent
+Line:81	"Outcome is Dealer Busted" hasNextEvent "Display Dealer Busted Message"
+Line:15	"Click Lets Play Button" hasNextEvent "Display Dealer Score"
+Line:75	"Outcome is Player Busted" hasInterface BlackJackViewController
+Line:44	"Click Hit Button" isAlternateEventOf "Click Stand Button"
+Line:82	"Display Dealer Busted Message" hasInterface "Alert Dialog"
+Line:34	"Display Stand Button" hasInterface BlackJackViewController
+Line:62	"Deal Another Player Card" hasNextEvent "Update Player Score"
+Line:63	"Update Player Score" hasInterface playerLabel
+Line:121	"Click OK Button" hasNextEvent "Display New Game Button"
+Line:79	"Evaluate Game Outcome" hasNextEvent "Outcome is Dealer Busted"
+Line:6	"Display Lets Play Button" hasNextEvent "Click Lets Play Button"
+Line:3	"Display Lets Play Button" hasInterface "Alert Dialog"
+Line:42	standButton hasInteractionWith user-agent
+Line:54	"Evaluate Game Outcome" hasInterface BlackJackViewController
+Line:67	"Evaluate Game Outcome" hasNextEvent "Update Player Score"
+Line:53	"Update Dealer Score" hasNextEvent "Evaluate Game Outcome"
+Line:125	"Click New Game Button" hasInterface restartButton
+Line:8	"Lets Play Button" isElementOf "Alert Dialog"
+Line:109	"Click OK Button" hasInterface okButton
+Line:76	"Outcome is Player Busted" hasNextEvent "Display Player Busted Message"
+Line:27	"Hide Lets Play Button" hasInterface BlackJackViewController
+Line:33	"Click Lets Play Button" hasNextEvent "Display Stand Button"
+Line:118	"Click OK Button" hasNextEvent "Update Game Stats"
+Line:59	"Deal Another Player Card" hasNextEvent "Click Stand Button"
+Line:110	user-agent interactsWith okButton
+Line:77	"Display Player Busted Message" hasInterface "Alert Dialog"
+Line:124	"Display New Game Button" hasNextEvent "Click New Game Button"
+Line:119	"Update Game Stats" hasInterface BlackJackViewController
+Line:64	"Update Player Score" hasNextEvent "Evaluate Player Outcome"
+Line:7	"Click Lets Play Button" hasInterface "Lets Play Button"
+Line:102	"Display Dealer Busted Message" isAlternateEventOf "Display Player Wins Message"
+Line:47	"Click Stand Button" hasNextEvent "Show Dealer Hand"
+Line:12	"Display Dealer Hand" hasInterface BlackJackViewController
+Line:74	"Evaluate Game Outcome" hasNextEvent "Outcome is Player Busted"
+Line:29	"Click Lets Play Button" hasNextEvent "Display Hit Button"
+Line:26	"Click Lets Play Button" hasNextEvent "Hide Lets Play Button"
+Line:85	"Evaluate Game Outcome" hasNextEvent "Outcome is Player Wins"
+Line:9	user-agent interactsWith "Lets Play Button"
+Line:11	"Click Lets Play Button" hasNextEvent "Display Dealer Hand"
+Line:86	"Outcome is Player Wins" hasInterface BlackJackViewController
+Line:37	"Click Hit Button" hasInterface hitButton
+Line:116	"Hide Hit Button" hasInterface BlackJackViewController
+Line:93	"Display Dealer Wins Message" hasInterface "Alert Dialog"
+Line:101	"Display Player Wins Message" hasNextEvent "Click OK Button"
+Line:104	"Display Dealer Wins Message" hasNextEvent "Click OK Button"
+Line:56	"Click Hit Button" hasNextEvent "Deal Another Player Card"
+Line:16	"Display Dealer Score" hasInterface  dealerLabel
+Line:20	"Display Player Hand" hasInterface BlackJackViewController
+Line:95	"Display Player Busted Message" hasNextEvent "Click OK Button"
+Line:126	restartButton hasInteractionWith user-agent
+Line:91	"Outcome is Dealer Wins" hasInterface BlackJackViewController
+Line:96	"Display Player Busted Message" isAlternateEventOf "Display Game Draw Message"
+Line:69	"Evaluate Game Outcome" hasNextEvent "Outcome is Draw"
+Line:122	"Display New Game Button" hasInterface BlackJackViewController
+Line:99	"Display Player Busted Message" isAlternateEventOf "Display Dealer Busted Message"
+Line:113	"Hide Stand Button" hasInterface BlackJackViewController
+Line:115	"Click OK Button" hasNextEvent "Hide Hit Button"
+Line:17	dealerLabel hasInteractionWith client-agent
+Line:48	"Show Dealer Hand" hasInterface BlackJackViewController
+Line:51	"Update Dealer Score" hasInterface "dealerLabel"
+Line:87	"Outcome is Player Wins" hasNextEvent "Display Player Wins Message"
+Line:108	"Display Game Draw Message" hasNextEvent "Click OK Button"
+Line:112	"Click OK Button" hasNextEvent "Hide Stand Button"
+Line:13	BlackJackViewController hasInteractionWith client-agent
+Line:2	Event_Start hasNextEvent "Display Lets Play Button"
+Line:4	client-agent interactsWith "Alert Dialog"
+Line:22	"Click Lets Play Button" hasNextEvent "Display Player Score"
+Line:23	"Display Player Score" hasInterface  playerLabel
+Line:71	"Outcome is Draw" hasNextEvent "Display Game Draw Message"
+Line:92	"Outcome is Dealer Wins" hasNextEvent "Display Dealer Wins Message"
+Line:19	"Click Lets Play Button" hasNextEvent "Display Player Hand"
+Line:36	"Display Hit Button" hasNextEvent "Click Hit Button"
+Line:90	"Evaluate Game Outcome" hasNextEvent "Outcome is Dealer Wins"
+Line:88	"Display Player Wins Message" hasInterface "Alert Dialog"
+Line:70	"Outcome is draw" hasInterface BlackJackViewController
+Line:50	"Show Dealer Hand" hasNextEvent "Update Dealer Score"
+Line:98	"Display Dealer Busted Message" hasNextEvent "Click OK Button"
+Line:80	"Outcome is Dealer Busted" hasInterface BlackJackViewController
+Line:105	"Display Dealer Wins Message" isAlternateEventOf "Display Player Wins Message"
+Line:30	"Display Hit Button" hasInterface BlackJackViewController

@@ -1,0 +1,1900 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#"
+     xml:base="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl"
+     xmlns:efbo="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl">
+        <owl:imports rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasFinalEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasFinalEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInitialEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInitialEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickBETButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickBETButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot;  isAlternateEventOf &quot;Click BET Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 45</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click BET Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickBETbutton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickBETbutton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipDealerFirstCard"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipPlayerCards"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click BET button&quot; hasNextEvent &quot;Flip Dealer First Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 48</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click BET button&quot; hasNextEvent &quot;Flip Player Cards&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 49</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable BET button&quot; hasNextEvent &quot;Click BET button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 46</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click BET button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickDecrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickDecrementBetButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayUpdatedBet"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Decrement Bet Button&quot; hasNextEvent &quot;Display Updated Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 42</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; isAlternateEventOf &quot;Click Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 44</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable Decrement Bet Button&quot; hasNextEvent &quot;Click Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 39</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Decrement Bet Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickHITButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickHITButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DealAdditionalPlayerCard"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ObserveGameStatus"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickSTAYButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click HIT Button&quot; hasNextEvent &quot;Deal Additional Player Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 54</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click HIT Button&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 53</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click HIT Button&quot; isAlternateEventOf &quot;Click STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 57</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable HIT Button&quot; hasNextEvent &quot;Click HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 52</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click HIT Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickIncrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickIncrementBetButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayUpdatedBet"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableBETButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableDecrementBetButton"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickBETButton"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickDecrementBetButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot;  isAlternateEventOf &quot;Click BET Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 45</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; hasNextEvent &quot;Display Updated Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 41</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; hasNextEvent &quot;Enable BET Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 37</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; hasNextEvent &quot;Enable Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 38</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; isAlternateEventOf &quot;Click Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 44</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable IncrementBet Button&quot; hasNextEvent &quot;Click Increment Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 35</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Increment Bet Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickPLAYAGAINButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickPLAYAGAINButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayGameActivityScreen"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayUpdatedPlayerMoney"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click PLAY AGAIN Button&quot; hasNextEvent &quot;Display Game Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 62</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click PLAY AGAIN Button&quot; hasNextEvent &quot;Display Updated Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 63</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display PLAY AGAIN Button&quot; hasNextEvent &quot;Click PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 61</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click PLAY AGAIN Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickSTAYButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickSTAYButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipDealerSecondCard"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click HIT Button&quot; isAlternateEventOf &quot;Click STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 57</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click STAY Button&quot; hasNextEvent &quot;Flip Dealer Second Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 58</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click STAY Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DealAdditionalPlayerCard -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DealAdditionalPlayerCard">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ObserveGameStatus"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click HIT Button&quot; hasNextEvent &quot;Deal Additional Player Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 54</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Additional Player Card&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 55</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Deal Additional Player Card</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayDealerHand -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayDealerHand">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 31</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Dealer Hand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayGameActivityScreen -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayGameActivityScreen">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayDealerHand"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerBet"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerHand"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerMoney"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableIncrementBetButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click PLAY AGAIN Button&quot; hasNextEvent &quot;Display Game Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 62</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 31</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Player Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 33</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Player Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 32</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Enable Increment Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 34</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: GameActivityClass isInterfaceOf &quot;Display Game Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 80</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Game Activity Screen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPLAYAGAINButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPLAYAGAINButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickPLAYAGAINButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display PLAY AGAIN Button&quot; hasNextEvent &quot;Click PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 61</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display PLAY AGAIN Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerBet -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerBet">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Player Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 33</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Bet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerHand -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerHand">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Player Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 32</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Hand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerMoney -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayPlayerMoney">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Display Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 30</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Money</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayUpdatedBet -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayUpdatedBet">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Decrement Bet Button&quot; hasNextEvent &quot;Display Updated Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 42</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; hasNextEvent &quot;Display Updated Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 41</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Updated Bet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayUpdatedPlayerMoney -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayUpdatedPlayerMoney">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click PLAY AGAIN Button&quot; hasNextEvent &quot;Display Updated Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 63</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Updated Player Money</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableBETButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableBETButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; hasNextEvent &quot;Enable BET Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 37</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Enable BET Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableBETbutton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableBETbutton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickBETbutton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable BET button&quot; hasNextEvent &quot;Click BET button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 46</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Enable BET button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableDecrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableDecrementBetButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickDecrementBetButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Increment Bet Button&quot; hasNextEvent &quot;Enable Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 38</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable Decrement Bet Button&quot; hasNextEvent &quot;Click Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 39</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Enable Decrement Bet Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableHITButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableHITButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickHITButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable HIT Button&quot; hasNextEvent &quot;Click HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 52</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Enable HIT Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableIncrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.EnableIncrementBetButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ClickIncrementBetButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Activity Screen&quot; hasNextEvent &quot;Enable Increment Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 34</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Enable IncrementBet Button&quot; hasNextEvent &quot;Click Increment Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 35</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Enable Increment Bet Button</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Enable IncrementBet Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipDealerFirstCard -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipDealerFirstCard">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click BET button&quot; hasNextEvent &quot;Flip Dealer First Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 48</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Flip Dealer First Card</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipDealerSecondCard -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipDealerSecondCard">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ObserveGameStatus"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click STAY Button&quot; hasNextEvent &quot;Flip Dealer Second Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 58</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Flip Dealer Second Card&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 59</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Flip Dealer Second Card</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipPlayerCards -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.FlipPlayerCards">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ObserveGameStatus"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click BET button&quot; hasNextEvent &quot;Flip Player Cards&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 49</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Flip Player Cards&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 50</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Flip Player Cards</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.GameActivityClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.GameActivityClass">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.DisplayGameActivityScreen"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: GameActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 65</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: GameActivityClass isInterfaceOf &quot;Display Game Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 80</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:GameActivityClass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ObserveGameStatus -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameActivity.java.ObserveGameStatus">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click HIT Button&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 53</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Additional Player Card&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 55</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Flip Dealer Second Card&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 59</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Flip Player Cards&quot; hasNextEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 50</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Observe Game Status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickBetButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betButton isInterfaceOf &quot;Click Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 98</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Bet Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickDecrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickDecrementBetButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: decrementBetButton isInterfaceOf &quot;Click Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 104</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Decrement Bet Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickIncrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickIncrementBetButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: incrementBetButton isInterfaceOf &quot;Click Increment Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 101</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Increment Bet Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayBetDecision -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayBetDecision">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Display Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 523</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betDecisionView isInterfaceOf &quot;Display Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 111</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Bet Decision</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerBustedMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerBustedMessage">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BUST&quot; hasNextEvent &quot;Display Dealer Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 380</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Dealer Busted Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerHand -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerHand">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: dealerHandView isInterfaceOf &quot;Display Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 129</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Dealer Hand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerScore -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerScore">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: dealerScoreTextView isInterfaceOf &quot;Display Dealer Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 90</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Dealer Score</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayFinalOutcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayFinalOutcome">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: handOverTextView isInterfaceOf &quot;Display Final Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 93</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Final Outcome</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayHITButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayHITButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Display HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 539</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Display HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 115</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display HIT Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayOver21PlayerLostMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayOver21PlayerLostMessage">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BUST&quot; hasNextEvent &quot;Display Over 21 Player Lost Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 396</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Over 21 Player Lost Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPLAYAGAINButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPLAYAGAINButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Display PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 579</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playAgainView isInterfaceOf &quot;Display PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 121</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display PLAY AGAIN Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPUSHMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPUSHMessage">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PUSH&quot; hasNextEvent &quot;Display PUSH Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 349</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display PUSH Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayAgainButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayAgainButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: showDecisionView hasFinalEvent &quot;Display Play Again Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 505</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Play Again Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerBet -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerBet">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betTextView isInterfaceOf &quot;Display Player Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 84</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Bet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerBlackjackMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerBlackjackMessage">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_BLACKJACK&quot; hasNextEvent &quot;Display Player Blackjack Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 356</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Blackjack Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerHand -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerHand">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playerHandView isInterfaceOf &quot;Display Player Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 132</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Hand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerLostMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerLostMessage">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BLACKJACK&quot; hasNextEvent &quot;Display Player Lost Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 364</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_WIN&quot; hasNextEvent &quot;Display Player Lost Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 388</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Lost Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerMoney -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerMoney">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: moneyTextView isInterfaceOf &quot;Display Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 79</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Money</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerScore -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerScore">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playerScoreTextView isInterfaceOf &quot;Display Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 87</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Score</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerWonMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerWonMessage">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_WIN&quot; hasNextEvent &quot;Display Player Won Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 372</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Player Won Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplaySTAYButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplaySTAYButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Display STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 540</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Display STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 117</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display STAY Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayUpdatedBet -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayUpdatedBet">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betTextView isInterfaceOf &quot;Display Updated Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 83</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Updated Bet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayUpdatedPlayerMoney -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayUpdatedPlayerMoney">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: moneyTextView isInterfaceOf &quot;Display Updated Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 80</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Updated Player Money</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayWaitingView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayWaitingView">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Display Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 560</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: waitingView isInterfaceOf &quot;Display Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 125</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Waiting View</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluatePlayerOutcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluatePlayerOutcome">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.PlayerClass"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BLACKJACK"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BUST"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_WIN"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_BLACKJACK"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_BUST"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_WIN"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPUSH"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasInterface PlayerClass
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 343</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is DEALER_BLACKJACK&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 361</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is DEALER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 377</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is DEALER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 385</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PLAYER_BLACKJACK&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 353</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PLAYER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 393</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PLAYER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 369</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PUSH&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 346</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Evaluate Player Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 566</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: setShowdownText hasInitialEvent &quot;Evaluate Player Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 336</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluate Player Outcome</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BLACKJACK -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BLACKJACK">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerLostMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is DEALER_BLACKJACK&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 361</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BLACKJACK&quot; hasNextEvent &quot;Display Player Lost Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 364</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_BLACKJACK&quot; isAlternateEventOf &quot;Evaluation is DEALER_BLACKJACK&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 360</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluation is DEALER_BLACKJACK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BUST -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BUST">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerBustedMessage"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayOver21PlayerLostMessage"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_WIN"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is DEALER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 377</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BUST&quot; hasNextEvent &quot;Display Dealer Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 380</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BUST&quot; hasNextEvent &quot;Display Over 21 Player Lost Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 396</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BUST&quot; isAlternateEventOf &quot;Evaluation is PLAYER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 376</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_WIN&quot; isAlternateEventOf &quot;Evaluation is DEALER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 384</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluation is DEALER_BUST</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_WIN -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_WIN">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerLostMessage"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BUST"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_BUST"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is DEALER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 385</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_WIN&quot; hasNextEvent &quot;Display Player Lost Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 388</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_WIN&quot; isAlternateEventOf &quot;Evaluation is DEALER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 384</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_WIN&quot; isAlternateEventOf &quot;Evaluation is PLAYER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 392</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluation is DEALER_WIN</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_BLACKJACK -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_BLACKJACK">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerBlackjackMessage"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisDEALER_BLACKJACK"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_WIN"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PLAYER_BLACKJACK&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 353</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_BLACKJACK&quot; hasNextEvent &quot;Display Player Blackjack Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 356</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_BLACKJACK&quot; isAlternateEventOf &quot;Evaluation is DEALER_BLACKJACK&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 360</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_BLACKJACK&quot; isAlternateEventOf &quot;Evaluation is PLAYER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 368</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluation is PLAYER_BLACKJACK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_BUST -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_BUST">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PLAYER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 393</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_WIN&quot; isAlternateEventOf &quot;Evaluation is PLAYER_BUST&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 392</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluation is PLAYER_BUST</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_WIN -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPLAYER_WIN">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerWonMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PLAYER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 369</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is DEALER_BUST&quot; isAlternateEventOf &quot;Evaluation is PLAYER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 376</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_BLACKJACK&quot; isAlternateEventOf &quot;Evaluation is PLAYER_WIN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 368</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PLAYER_WIN&quot; hasNextEvent &quot;Display Player Won Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 372</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluation is PLAYER_WIN</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPUSH -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluationisPUSH">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPUSHMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasNextEvent &quot;Evaluation is PUSH&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 346</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluation is PUSH&quot; hasNextEvent &quot;Display PUSH Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 349</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Evaluation is PUSH</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisBETTING -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisBETTING">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayBetDecision"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideHITButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HidePLAYAGAINButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideSTAYButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideWaitingView"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisHITTING"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Display Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 523</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 510</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 519</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 511</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 515</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; isAlternateEventOf &quot;Game Status is HITTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 526</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is BETTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 507</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Game Status is BETTING</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisHITTING -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisHITTING">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayHITButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplaySTAYButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideBetDecision"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HidePLAYAGAINButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideWaitingView"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; isAlternateEventOf &quot;Game Status is HITTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 526</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Display HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 539</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Display STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 540</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 530</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 536</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 533</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; isAlternateEventOf &quot;Game Status is HITTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 546</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is HITTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 527</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Game Status is HITTING</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisSHOWDOWN -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisSHOWDOWN">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPLAYAGAINButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluatePlayerOutcome"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideBetDecision"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideHITButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideSTAYButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideWaitingView"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Display PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 579</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Evaluate Player Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 566</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 569</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 572</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 573</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 576</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; isAlternateEventOf &quot;Game Status is SHOWDOWN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 563</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is SHOWDOWN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 564</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Game Status is SHOWDOWN</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisWAITING -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisWAITING">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayWaitingView"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideBetDecision"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideHITButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HidePLAYAGAINButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideSTAYButton"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisHITTING"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisSHOWDOWN"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Display Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 560</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 550</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 553</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 557</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 554</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; isAlternateEventOf &quot;Game Status is HITTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 546</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; isAlternateEventOf &quot;Game Status is SHOWDOWN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 563</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is WAITING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 547</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Game Status is WAITING</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideBetDecision -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideBetDecision">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 530</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 569</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 550</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betDecisionView isInterfaceOf &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 112</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Hide Bet Decision</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideHITButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideHITButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 510</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 572</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 553</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 116</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Hide HIT Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HidePLAYAGAINButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HidePLAYAGAINButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 519</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 536</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 557</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playAgainView isInterfaceOf &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 122</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Hide PLAY AGAIN Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideSTAYButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideSTAYButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 511</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 573</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is WAITING&quot; hasNextEvent &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 554</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 118</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Hide STAY Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideWaitingView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideWaitingView">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is BETTING&quot; hasNextEvent &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 515</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is HITTING&quot; hasNextEvent &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 533</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Game Status is SHOWDOWN&quot; hasNextEvent &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 576</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: waitingView isInterfaceOf &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 126</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Hide Waiting View</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ObserveGameStatus -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ObserveGameStatus">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisBETTING"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisHITTING"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisSHOWDOWN"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.GameStatusisWAITING"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is BETTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 507</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is HITTING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 527</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is SHOWDOWN&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 564</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Observe Game Status&quot; hasNextEvent &quot;Game Status is WAITING&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 547</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: showDecisionView hasInitialEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 504</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Observe Game Status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.PlayerClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.PlayerClass">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Player Outcome&quot; hasInterface PlayerClass
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 343</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: server-agent interactsWith PlayerClass
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 344</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:PlayerClass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.betButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.betButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickBetButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 300</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betButton isInterfaceOf &quot;Click Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 98</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:betButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.betDecisionView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.betDecisionView">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayBetDecision"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideBetDecision"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betDecisionView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 522</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betDecisionView isInterfaceOf &quot;Display Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 111</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betDecisionView isInterfaceOf &quot;Hide Bet Decision&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 112</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:betDecisionView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.betTextView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.betTextView">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerBet"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayUpdatedBet"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betTextView isInterfaceOf &quot;Display Player Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 84</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betTextView isInterfaceOf &quot;Display Updated Bet&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 83</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:betTextView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.button_play_again -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.button_play_again">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: button_play_again hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 495</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:button_play_again</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.dealerHandView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.dealerHandView">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerHand"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith dealerHandView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 410</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: dealerHandView isInterfaceOf &quot;Display Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 129</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:dealerHandView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.dealerScoreTextView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.dealerScoreTextView">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayDealerScore"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith dealerScoreTextView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 427</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: dealerScoreTextView isInterfaceOf &quot;Display Dealer Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 90</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:dealerScoreTextView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.decrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.decrementBetButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickDecrementBetButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: decrementBetButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 274</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: decrementBetButton isInterfaceOf &quot;Click Decrement Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 104</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:decrementBetButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.handOverTextView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.handOverTextView">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayFinalOutcome"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith handOverTextView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 348</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: handOverTextView isInterfaceOf &quot;Display Final Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 93</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:handOverTextView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.hitAndStayView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.hitAndStayView">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayHITButton"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplaySTAYButton"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideHITButton"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideSTAYButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 509</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Display HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 115</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Display STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 117</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Hide HIT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 116</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView isInterfaceOf &quot;Hide STAY Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 118</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:hitAndStayView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.hitButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.hitButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 314</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:hitButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.incrementBetButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.incrementBetButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ClickIncrementBetButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: incrementBetButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 287</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: incrementBetButton isInterfaceOf &quot;Click Increment Bet Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 101</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:incrementBetButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.moneyTextView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.moneyTextView">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerMoney"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayUpdatedPlayerMoney"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: moneyTextView isInterfaceOf &quot;Display Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 79</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: moneyTextView isInterfaceOf &quot;Display Updated Player Money&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 80</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:moneyTextView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playAgainView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playAgainView">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPLAYAGAINButton"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HidePLAYAGAINButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playAgainView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 518</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playAgainView isInterfaceOf &quot;Display PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 121</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playAgainView isInterfaceOf &quot;Hide PLAY AGAIN Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 122</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:playAgainView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playerHandView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playerHandView">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerHand"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith playerHandView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 432</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playerHandView isInterfaceOf &quot;Display Player Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 132</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:playerHandView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playerScoreTextView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playerScoreTextView">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayerScore"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith playerScoreTextView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 456</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playerScoreTextView isInterfaceOf &quot;Display Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 87</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:playerScoreTextView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.setShowdownText -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.setShowdownText">
+        <efbo:hasInitialEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.EvaluatePlayerOutcome"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: setShowdownText hasInitialEvent &quot;Evaluate Player Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 336</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:setShowdownText</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.showDecisionView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.showDecisionView">
+        <efbo:hasFinalEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayPlayAgainButton"/>
+        <efbo:hasInitialEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.ObserveGameStatus"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: showDecisionView hasFinalEvent &quot;Display Play Again Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 505</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: showDecisionView hasInitialEvent &quot;Observe Game Status&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 504</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:showDecisionView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.stayButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.stayButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: stayButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 320</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:stayButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.waitingView -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.waitingView">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.DisplayWaitingView"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.HideWaitingView"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: waitingView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 514</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: waitingView isInterfaceOf &quot;Display Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 125</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: waitingView isInterfaceOf &quot;Hide Waiting View&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 126</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:waitingView</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.ClickPlayButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.ClickPlayButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.DisplayGameActivityScreen"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Play Button&quot; hasNextEvent &quot;Display Game Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Main Activity Screen&quot; hasNextEvent &quot;Click Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 24</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Play Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.DisplayGameActivityScreen -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.DisplayGameActivityScreen">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Play Button&quot; hasNextEvent &quot;Display Game Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 30</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Game Activity Screen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.DisplayMainActivityScreen -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.DisplayMainActivityScreen">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.ClickPlayButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Main Activity Screen&quot; hasNextEvent &quot;Click Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 24</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Event_Start&quot; hasNextEvent &quot;Display Main Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 17</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainActivityClass isInterfaceOf &quot;Display Main Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 18</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Main Activity Screen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.Event_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.Event_Start">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.DisplayMainActivityScreen"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Event_Start&quot; hasNextEvent &quot;Display Main Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 17</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Event_Start</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.MainActivityClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.MainActivityClass">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.DisplayMainActivityScreen"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 11</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainActivityClass isInterfaceOf &quot;Display Main Activity Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 18</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:MainActivityClass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.playButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.MainActivity.java.playButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 25</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:playButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Android-BlackJack</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#client-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.dealerHandView"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.dealerScoreTextView"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.handOverTextView"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playerHandView"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.playerScoreTextView"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: GameActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameActivity.java
+Line Number: 65</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 11</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betDecisionView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 522</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith dealerHandView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 410</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith dealerScoreTextView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 427</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith handOverTextView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 348</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith playerHandView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 432</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith playerScoreTextView
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 456</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitAndStayView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 509</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playAgainView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 518</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: waitingView hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 514</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:client agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#server-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#server-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#Android-BlackJack.GameFragment.java.PlayerClass"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: server-agent interactsWith PlayerClass
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 344</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:server agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#user-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-BlackJack.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: betButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 300</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: button_play_again hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 495</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: decrementBetButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 274</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 314</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: incrementBetButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 287</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/MainActivity.java
+Line Number: 25</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: stayButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/AndroidBlackJack/GameFragment.java
+Line Number: 320</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:user agent</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

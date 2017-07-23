@@ -1,0 +1,193 @@
+
+@startuml
+title
+Decesion Point Event
+System-2:_verifyUserInfo;
+System-1:_verifyUserInfo; 
+end title
+
+"System-1:_verifyUserInfo"-->[ hasNextEvent ]"System-1:_presentTryAgainUI"
+"System-1:_verifyUserInfo"-->[ hasNextEvent ]"System-1:_welcomeTheUser"
+"System-1:_verifyUserInfo"-up->[ hasPreviousEvent ]"System-1:_tapLoginButton"
+"System-1:_welcomeTheUser"-right->[ isAlternateEventOf ]"System-1:_presentTryAgainUI"
+"System-1:_presentTryAgainUI"-right->[ isAlternateEventOf ]"System-1:_welcomeTheUser"
+"System-2:_verifyUserInfo"-->[ hasNextEvent ]"System-2:_welcomeTheUser"
+"System-2:_verifyUserInfo"-->[ hasNextEvent ]"System-2:_presentTryAgainUI"
+"System-2:_verifyUserInfo"-up->[ hasPreviousEvent ]"System-2:_tapLoginButton"
+"System-2:_presentTryAgainUI"-right->[ isAlternateEventOf ]"System-2:_welcomeTheUser"
+"System-2:_welcomeTheUser"-right->[ isAlternateEventOf ]"System-2:_presentTryAgainUI"
+@enduml
+
+
+@startuml
+"System-1:Click Hit Button"-right->[ isAlternateEventOf ]"System-1:Click Stand Button"
+"System-1:Display Dealer Busted Message"-right->[ isAlternateEventOf ]"System-1:Display Player Busted Message"
+"System-1:Display Player Busted Message"-right->[ isAlternateEventOf ]"System-1:Display Game Draw Message"
+"System-1:Display Player Wins Message"-right->[ isAlternateEventOf ]"System-1:Display Dealer Wins Message"
+"System-1:Display Dealer Wins Message"-right->[ isAlternateEventOf ]"System-1:Display Player Wins Message"
+"System-1:Display Dealer Busted Message"-right->[ isAlternateEventOf ]"System-1:Display Player Wins Message"
+"System-1:Display Game Draw Message"-right->[ isAlternateEventOf ]"System-1:Display Player Busted Message"
+"System-1:Display Player Wins Message"-right->[ isAlternateEventOf ]"System-1:Display Dealer Busted Message"
+"System-1:Display Player Busted Message"-right->[ isAlternateEventOf ]"System-1:Display Dealer Busted Message"
+"System-1:Click Stand Button"-right->[ isAlternateEventOf ]"System-1:Click Hit Button"
+"System-2:Game Status is SHOWDOWN"-right->[ isAlternateEventOf ]"System-2:Game Status is WAITING"
+"System-2:Game Status is WAITING"-right->[ isAlternateEventOf ]"System-2:Game Status is SHOWDOWN"
+"System-2:Evaluation is DEALER_BLACKJACK"-right->[ isAlternateEventOf ]"System-2:Evaluation is PLAYER_BLACKJACK"
+"System-2:Game Status is HITTING"-right->[ isAlternateEventOf ]"System-2:Game Status is BETTING"
+"System-2:Click HIT Button"-right->[ isAlternateEventOf ]"System-2:Click STAY Button"
+"System-2:Click Increment Bet Button"-right->[ isAlternateEventOf ]"System-2:Click Decrement Bet Button"
+"System-2:Evaluation is PLAYER_BLACKJACK"-right->[ isAlternateEventOf ]"System-2:Evaluation is PLAYER_WIN"
+"System-2:Evaluation is PLAYER_WIN"-right->[ isAlternateEventOf ]"System-2:Evaluation is DEALER_BUST"
+"System-2:Evaluation is DEALER_WIN"-right->[ isAlternateEventOf ]"System-2:Evaluation is PLAYER_BUST"
+"System-2:Game Status is BETTING"-right->[ isAlternateEventOf ]"System-2:Game Status is HITTING"
+"System-2:Evaluation is DEALER_BUST"-right->[ isAlternateEventOf ]"System-2:Evaluation is DEALER_WIN"
+"System-2:Evaluation is DEALER_WIN"-right->[ isAlternateEventOf ]"System-2:Evaluation is DEALER_BUST"
+"System-2:Click Decrement Bet Button"-right->[ isAlternateEventOf ]"System-2:Click Increment Bet Button"
+"System-2:Click STAY Button"-right->[ isAlternateEventOf ]"System-2:Click HIT Button"
+"System-2:Evaluation is PLAYER_WIN"-right->[ isAlternateEventOf ]"System-2:Evaluation is PLAYER_BLACKJACK"
+"System-2:Evaluation is PLAYER_BLACKJACK"-right->[ isAlternateEventOf ]"System-2:Evaluation is DEALER_BLACKJACK"
+"System-2:Evaluation is PLAYER_BUST"-right->[ isAlternateEventOf ]"System-2:Evaluation is DEALER_WIN"
+"System-2:Game Status is WAITING"-right->[ isAlternateEventOf ]"System-2:Game Status is HITTING"
+"System-2:Evaluation is DEALER_BUST"-right->[ isAlternateEventOf ]"System-2:Evaluation is PLAYER_WIN"
+"System-2:Game Status is HITTING"-right->[ isAlternateEventOf ]"System-2:Game Status is WAITING"
+@enduml
+
+@startuml
+package "Sys1"{
+object ">>Decesion Point Event" as System01
+System01 : "System-1:_verifyUserInfo"
+object "System-1 Event" as System011
+System011 : "System-1:_presentTryAgainUI"
+System01 --> System011 : hasNextEvent
+object "System-1 Event" as System012
+System012 : "System-1:_welcomeTheUser"
+System01 --> System012 : hasNextEvent
+System011 <-right-> System012: isAltEventOf
+
+object "System-1 Event" as System0111
+System0111 : "System-1:_tapLoginButton"
+System01 -up-> System0111 : hasPreviousEvent
+}
+
+package "Sys 2"{
+object ">>Decesion Point Event" as System02
+System02 : "System-2:_verifyUserInfo"
+object "System-2 Event" as System021
+System021 : "System-2:_welcomeTheUser"
+System02 --> System021 : hasNextEvent
+}
+note "- Inconsistent Next Event\n- Inconsistent Previous Event" as note1
+System02 .. note1
+@enduml
+
+ @startuml
+ title 
+ What is Going on?
+ end title
+ 
+ Alice -> Bob : Hello
+ Bob -> Alice : Hello Too
+ @enduml
+ 
+@startuml
+Title
+Decesion Point Event
+System-2:_verifyUserInfo; System-1:_verifyUserInfo; 
+end title
+
+"System-1:_verifyUserInfo"-->[ hasNextEvent ]"System-1:_presentTryAgainUI"
+"System-1:_verifyUserInfo"-->[ hasNextEvent ]"System-1:_welcomeTheUser"
+"System-1:_verifyUserInfo"-up->[ hasPreviousEvent ]"System-1:_tapLoginButton"
+"System-1:_welcomeTheUser"-right->[ isAlternateEventOf ]"System-1:_presentTryAgainUI"
+"System-1:_presentTryAgainUI"-right->[ isAlternateEventOf ]"System-1:_welcomeTheUser"
+"System-2:_verifyUserInfo"-->[ hasNextEvent ]"System-2:_welcomeTheUser"
+"System-2:_verifyUserInfo"-up->[ hasPreviousEvent ]"System-2:_tapLoginButton"
+"System-2:_presentTryAgainUI"-right->[ isAlternateEventOf ]"System-2:_welcomeTheUser"
+"System-2:_welcomeTheUser"-right->[ isAlternateEventOf ]"System-2:_presentTryAgainUI"
+@enduml
+
+#Event with consistent next event
+@startuml
+title
+Event With Consistent Next Event
+System-1:Click Hit Button; System-2:Click HIT Button 
+end title
+
+"System-2:Click HIT Button"-right->[ hasNextEvent] "System-2:Deal Additional Player Card"
+"System-2:Deal Additional Player Card" .left.>[ hasPreviousEvent] "System-2:Click HIT Button"
+"System-2:Click HIT Button"-left->[ hasPreviousEvent] "System-2:Enable HIT Button"
+"System-1:Deal Another Player Card" --> [ hasMappingEvent] "System-2:Deal Additional Player Card" 
+"System-2:Enable HIT Button" .right.>[hasFutureEvent]"System-2:Deal Additional Player Card"
+
+"System-1:Click Hit Button"-left->[ hasPreviousEvent]"System-1:Display Hit Button"
+"System-1:Deal Another Player Card" ..> [ hasPastEvent]"System-1:Display Hit Button"
+"System-1:Deal Another Player Card" ..> [ hasPreviousEvent]"System-1:Click Hit Button"
+"System-1:Click Hit Button"-->[ hasMappingEvent] "System-2:Click HIT Button"
+"System-1:Deal Another Player Card" ..> [ hasConsistentPreviousEvent] "System-2:Deal Additional Player Card"
+"System-1:Click Hit Button"..> [ hasConsistentNextEvent] "System-2:Click HIT Button"
+"System-1:Click Hit Button"-right-> [ hasNextEvent] "System-1:Deal Another Player Card"                
+@enduml
+
+@startuml
+title
+Event With Consistent Next Event
+System-1:Outcome is Dealer Busted; System-2:Evaluation is DEALER_BUST
+end title
+
+"System-2:Evaluation is DEALER_BUST" -right->[ hasNextEvent] "System-2:Display Dealer Busted Message"
+"System-2:Evaluation is DEALER_BUST"  -left->[ hasPreviousEvent] "System-2:Evaluate Player Outcome"
+"System-2:Evaluate Player Outcome" .right.>[ hasFutureEvent] "System-2:Display Dealer Busted Message"
+"System-1:Display Dealer Busted Message" -->[ hasMappingEvent] "System-2:Display Dealer Busted Message"
+"System-1:Display Dealer Busted Message" ..>[ hasConsistentPreviousEvent] "System-2:Display Dealer Busted Message"
+"System-2:Display Dealer Busted Message" .left.>[hasPreviousEvent] "System-2:Evaluation is DEALER_BUST"
+
+"System-1:Outcome is Dealer Busted"-right->[ hasNextEvent] "System-1:Display Dealer Busted Message"
+ "System-1:Display Dealer Busted Message" -right->[ hasNextEvent] "System-1:Outcome is Dealer Busted"
+
+"System-1:Outcome is Dealer Busted"-left->[ hasPreviousEvent]"System-1:Evaluate Game Outcome"
+"System-1:Display Dealer Busted Message"..>[ hasPastEvent]"System-1:Evaluate Game Outcome"
+"System-1:Outcome is Dealer Busted" --> [ hasMappingEvent] "System-2:Evaluation is DEALER_BUST"
+"System-1:Outcome is Dealer Busted" ..> [ hasConsistentNextEvent] "System-2:Evaluation is DEALER_BUST"
+      
+@enduml
+
+"System-2:Display Dealer Busted Message" .left.>[hasPreviousEvent] "System-2:Evaluation is DEALER_BUST"  
+
+"System-1:Display Dealer Busted Message" -->[ hasMappingEvent] "System-2:Display Dealer Busted Message"
+ 
+
+
+@startuml
+title
+DPE
+
+end title
+
+"System-1:Receive Successful Payment Message from Server"-right->[ isAlternateEventOf ]"System-1:Receive Failed Payment Message from Server"
+"System-1:Click CONTINUE SHOPPING Button"-right->[ isAlternateEventOf ]"System-1:Click CHECKOUT Button"
+"System-1:Receive Failed Payment Message from Server"-right->[ isAlternateEventOf ]"System-1:Receive Successful Payment Message from Server"
+"System-1:Click CHECKOUT Button"-right->[ isAlternateEventOf ]"System-1:Click CONTINUE SHOPPING Button"
+"System-2:Receive Successful Payment Message from Server"-right->[ isAlternateEventOf ]"System-2:Receive Failed Payment Message from Server"
+"System-2:Receive Failed Payment Message from Server"-right->[ isAlternateEventOf ]"System-2:Receive Successful Payment Message from Server"
+@enduml
+
+
+@startuml
+title
+Decision Point Event
+System-2:Verify Payment; System-1:Verify Payment; 
+end title
+
+"System-1:Verify Payment"-->[ hasNextEvent ]"System-1:Receive Successful Payment Message from Server"
+"System-1:Verify Payment"-->[ hasNextEvent ]"System-1:Receive Failed Payment Message from Server"
+"System-1:Verify Payment"-up->[ hasPreviousEvent ]"System-1:Send Payment Verification to Server"
+"System-1:Click CONTINUE SHOPPING Button"-right->[ isAlternateEventOf ]"System-1:Click CHECKOUT Button"
+"System-1:Receive Failed Payment Message from Server"-right->[ isAlternateEventOf ]"System-1:Receive Successful Payment Message from Server"
+"System-1:Click CHECKOUT Button"-right->[ isAlternateEventOf ]"System-1:Click CONTINUE SHOPPING Button"
+"System-1:Receive Successful Payment Message from Server"-right->[ isAlternateEventOf ]"System-1:Receive Failed Payment Message from Server"
+"System-2:Verify Payment"-->[ hasNextEvent ]"System-2:Receive Failed Payment Message from Server"
+"System-2:Verify Payment"-->[ hasNextEvent ]"System-2:Receive Successful Payment Message from Server"
+"System-2:Verify Payment"-up->[ hasPreviousEvent ]"System-2:Send Payment Verification to Server"
+"System-2:Receive Failed Payment Message from Server"-right->[ isAlternateEventOf ]"System-2:Receive Successful Payment Message from Server"
+"System-2:Receive Successful Payment Message from Server"-right->[ isAlternateEventOf ]"System-2:Receive Failed Payment Message from Server"
+@enduml

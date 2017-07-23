@@ -1,0 +1,1187 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#"
+     xml:base="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl"
+     xmlns:efbo="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl">
+        <owl:imports rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Busted Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 83</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Wins Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 94</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Draw Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 73</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Lets Play Button&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 3</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 78</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Wins Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 89</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Lets Play Button&quot; isElementOf &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 8</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 4</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Alert Dialog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#client-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 57</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Hand&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 12</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Hit Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display New Game Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 123</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Hand&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 20</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Stand Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 34</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 54</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Hide Hit Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 117</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Hide Lets Play Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 27</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Hide Stand Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 114</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Busted&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 81</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Wins&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 92</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Busted&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 76</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Wins&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is draw&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 71</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Show Dealer Hand&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 48</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Game Stats&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 120</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: BlackJackViewController hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 13</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:BlackJackViewController</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickHitButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickHitButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.hitButton"/>
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.standButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DealAnotherPlayerCard"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickStandButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; hasInterface hitButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 37</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; hasInterface standButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 41</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; hasNextEvent &quot;Deal Another Player Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 56</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; isAlternateEventOf &quot;Click Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 44</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasNextEvent &quot;Click Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 59</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Hit Button&quot; hasNextEvent &quot;Click Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 36</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click Hit Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickLetsPlayButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickLetsPlayButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.LetsPlayButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerHand"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerScore"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayHitButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerHand"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerScore"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayStandButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideLetsPlayButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasInterface &quot;Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 7</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 11</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Dealer Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 15</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 29</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Player Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 19</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 22</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 33</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Hide Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Lets Play Button&quot; hasNextEvent &quot;Click Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 6</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click Lets Play Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickNewGameButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickNewGameButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.restratButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click New Game Button&quot; hasInterface restratButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 126</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display New Game Button&quot; hasNextEvent &quot;Click New Game Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 125</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click New Game Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickOKButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickOKButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.okButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayNewGameButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideHitButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideStandButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdateGameStats"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasInterface okButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 110</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Display New Game Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 122</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Hide Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 116</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Hide Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 113</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Update Game Stats&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 119</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Busted Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 99</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Wins Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 105</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Draw Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 109</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 96</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Wins Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 102</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click OK Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickStandButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickStandButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ShowDealerHand"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; isAlternateEventOf &quot;Click Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 44</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Stand Button&quot; hasNextEvent &quot;Show Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 47</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasNextEvent &quot;Click Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 60</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Stand Button&quot; hasNextEvent &quot;Click Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 40</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click Stand Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DealAnotherPlayerCard -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DealAnotherPlayerCard">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickHitButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickStandButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdatePlayerScore"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; hasNextEvent &quot;Deal Another Player Card&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 56</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 57</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasNextEvent &quot;Click Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 59</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasNextEvent &quot;Click Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 60</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasNextEvent &quot;Update Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 63</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Deal Another Player Card</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerBustedMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerBustedMessage">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickOKButton"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Busted Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 83</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Busted Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 99</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Busted Message&quot; isAlternateEventOf &quot;Display Player Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 103</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; isAlternateEventOf &quot;Display Dealer Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 100</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Busted&quot; hasNextEvent &quot;Display Dealer Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 82</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Dealer Busted Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerHand -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerHand">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 11</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Hand&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 12</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Dealer Hand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerScore -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerScore">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.dealerLabel"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Dealer Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 15</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Score&quot; hasInterface  dealerLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 16</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Dealer Score</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerWinsMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerWinsMessage">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickOKButton"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Wins Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 94</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Wins Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 105</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Wins Message&quot; isAlternateEventOf &quot;Display Player Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 106</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Wins&quot; hasNextEvent &quot;Display Dealer Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 93</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Dealer Wins Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayGameDrawMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayGameDrawMessage">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickOKButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Draw Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 73</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Game Draw Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 109</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; isAlternateEventOf &quot;Display Game Draw Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 97</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Draw&quot; hasNextEvent &quot;Display Game Draw Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 72</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Game Draw Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayHitButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayHitButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickHitButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 29</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Hit Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Hit Button&quot; hasNextEvent &quot;Click Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 36</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Hit Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayLetsPlayButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayLetsPlayButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickLetsPlayButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Lets Play Button&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 3</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Lets Play Button&quot; hasNextEvent &quot;Click Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 6</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Event_Start hasNextEvent &quot;Display Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 2</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Lets Play Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayNewGameButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayNewGameButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickNewGameButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Display New Game Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 122</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display New Game Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 123</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display New Game Button&quot; hasNextEvent &quot;Click New Game Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 125</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display New Game Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickOKButton"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerBustedMessage"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 78</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 96</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; isAlternateEventOf &quot;Display Dealer Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 100</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Busted Message&quot; isAlternateEventOf &quot;Display Game Draw Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 97</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Busted&quot; hasNextEvent &quot;Display Player Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 77</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Player Busted Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerHand -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerHand">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Player Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 19</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Hand&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 20</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Player Hand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerScore -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerScore">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.playerLabel"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 22</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Score&quot; hasInterface  playerLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 23</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Player Score</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickOKButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Busted Message&quot; isAlternateEventOf &quot;Display Player Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 103</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Wins Message&quot; isAlternateEventOf &quot;Display Player Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 106</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Wins Message&quot; hasInterface &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 89</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Wins Message&quot; hasNextEvent &quot;Click OK Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 102</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Wins&quot; hasNextEvent &quot;Display Player Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 88</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Player Wins Message</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayStandButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayStandButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ClickStandButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Display Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 33</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Stand Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 34</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Stand Button&quot; hasNextEvent &quot;Click Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 40</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Stand Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.EvaluateGameOutcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.EvaluateGameOutcome">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDealerBusted"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDealerWins"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDraw"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisPlayerBusted"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisPlayerWins"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdatePlayerScore"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 54</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Dealer Busted&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 80</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Dealer Wins&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 91</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Draw&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 70</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Player Busted&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 75</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Player Wins&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 86</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Update Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 68</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Dealer Score&quot; hasNextEvent &quot;Evaluate Game Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 53</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Evaluate Game Outcome</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.EvaluatePlayerOutcome -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.EvaluatePlayerOutcome">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Player Score&quot; hasNextEvent &quot;Evaluate Player Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 65</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Evaluate Player Outcome</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.Event_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.Event_Start">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayLetsPlayButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Event_Start hasNextEvent &quot;Display Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 2</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Event_Start</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideHitButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideHitButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Hide Hit Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 116</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Hide Hit Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 117</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Hide Hit Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideLetsPlayButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideLetsPlayButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasNextEvent &quot;Hide Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Hide Lets Play Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 27</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Hide Lets Play Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideStandButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.HideStandButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Hide Stand Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 113</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Hide Stand Button&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 114</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Hide Stand Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.LetsPlayButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.LetsPlayButton">
+        <efbo:isElementOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Lets Play Button&quot; hasInterface &quot;Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 7</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Lets Play Button&quot; isElementOf &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 8</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith &quot;Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 9</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Lets Play Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDealerBusted -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDealerBusted">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerBustedMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Dealer Busted&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 80</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Busted&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 81</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Busted&quot; hasNextEvent &quot;Display Dealer Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 82</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Outcome is Dealer Busted</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDealerWins -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDealerWins">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayDealerWinsMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Dealer Wins&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 91</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Wins&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 92</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Dealer Wins&quot; hasNextEvent &quot;Display Dealer Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 93</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Outcome is Dealer Wins</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDraw -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisDraw">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayGameDrawMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Draw&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 70</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Draw&quot; hasNextEvent &quot;Display Game Draw Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 72</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Outcome is Draw</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisPlayerBusted -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisPlayerBusted">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerBustedMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Player Busted&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 75</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Busted&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 76</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Busted&quot; hasNextEvent &quot;Display Player Busted Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 77</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Outcome is Player Busted</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisPlayerWins -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.OutcomeisPlayerWins">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.DisplayPlayerWinsMessage"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Outcome is Player Wins&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 86</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Wins&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is Player Wins&quot; hasNextEvent &quot;Display Player Wins Message&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 88</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Outcome is Player Wins</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.Outcomeisdraw -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.Outcomeisdraw">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Outcome is draw&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 71</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Outcome is draw</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ShowDealerHand -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.ShowDealerHand">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdateDealerScore"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Stand Button&quot; hasNextEvent &quot;Show Dealer Hand&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 47</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Show Dealer Hand&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 48</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Show Dealer Hand&quot; hasNextEvent &quot;Update Dealer Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 50</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Show Dealer Hand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdateDealerScore -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdateDealerScore">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.dealerLabel"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.EvaluateGameOutcome"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Show Dealer Hand&quot; hasNextEvent &quot;Update Dealer Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 50</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Dealer Score&quot; hasInterface &quot;dealerLabel&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 51</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Dealer Score&quot; hasNextEvent &quot;Evaluate Game Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 53</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Update Dealer Score</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdateGameStats -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdateGameStats">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.BlackJackViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasNextEvent &quot;Update Game Stats&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 119</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Game Stats&quot; hasInterface BlackJackViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 120</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Update Game Stats</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdatePlayerScore -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.UpdatePlayerScore">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.playerLabel"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.EvaluatePlayerOutcome"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Deal Another Player Card&quot; hasNextEvent &quot;Update Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 63</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Evaluate Game Outcome&quot; hasNextEvent &quot;Update Player Score&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 68</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Player Score&quot; hasInterface playerLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 64</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Player Score&quot; hasNextEvent &quot;Evaluate Player Outcome&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 65</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Update Player Score</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.dealerLabel -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.dealerLabel">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#client-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Dealer Score&quot; hasInterface  dealerLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 16</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Dealer Score&quot; hasInterface &quot;dealerLabel&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 51</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: dealerLabel hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 17</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:dealerLabel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.hitButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.hitButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#user-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; hasInterface hitButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 37</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 38</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:hitButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.okButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.okButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click OK Button&quot; hasInterface okButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 110</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith okButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 111</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:okButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.playerLabel -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.playerLabel">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#client-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Player Score&quot; hasInterface  playerLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 23</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Update Player Score&quot; hasInterface playerLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 64</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playerLabel hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 24</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:playerLabel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.restartButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.restartButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#user-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: restartButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 127</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:restartButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.restratButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.restratButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click New Game Button&quot; hasInterface restratButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 126</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:restratButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.standButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.standButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#user-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Hit Button&quot; hasInterface standButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 41</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: standButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 42</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:standButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOS-BlackJack</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#client-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#client-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.AlertDialog"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: BlackJackViewController hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 13</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith &quot;Alert Dialog&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 4</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: dealerLabel hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 17</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: playerLabel hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 24</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:client agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#server-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#server-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:server agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#user-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#user-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.LetsPlayButton"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#IOS-BlackJack.BlackJackViewController.m.okButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOS-BlackJack.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: hitButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 38</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: restartButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 127</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: standButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 42</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith &quot;Lets Play Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 9</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith okButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/IosBlackJack/BlackJackViewController.m
+Line Number: 111</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:user agent</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

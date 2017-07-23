@@ -1,0 +1,763 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#"
+     xml:base="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl"
+     xmlns:efbo="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl">
+        <owl:imports rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.AddSelectedItemtotheCart -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.AddSelectedItemtotheCart">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.CartViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayItemDetails"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Add Selected Item to the Cart&quot; hasInterface CartViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Add Selected Item to the Cart&quot; hasNextEvent &quot;Display Item Details&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 38</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Add Selected Item to the Cart&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 22</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Add Selected Item to the Cart</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.CartViewController -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.CartViewController">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.cartIcon"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.checkoutButton"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.productsIcon"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Add Selected Item to the Cart&quot; hasInterface CartViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CartViewController hasElement cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 107</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CartViewController hasElement checkoutButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 62</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CartViewController hasElement productsIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 100</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface isElementOf CartViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 49</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith CartViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 33</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:CartViewController</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickAddtoCartButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickAddtoCartButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.AddSelectedItemtotheCart"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickCartIcon"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickProductsIcon"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayPriceSummary"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Add Selected Item to the Cart&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 22</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Click Cart Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 91</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Click Products Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 81</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 95</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Add to Cart Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickCartIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickCartIcon">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Click Cart Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 91</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Cart Icon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickCheckoutButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickCheckoutButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.checkoutButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Checkout Button&quot; hasInterface checkoutButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 59</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Item Details&quot; hasNextEvent &quot;Click Checkout Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 56</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Checkout Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickProductsIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickProductsIcon">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayProductList"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Click Products Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 81</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Products Icon&quot; hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 85</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Products Icon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayItemDetails -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayItemDetails">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ItemDisplayInterface"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ClickCheckoutButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Add Selected Item to the Cart&quot; hasNextEvent &quot;Display Item Details&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 38</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Item Details&quot; hasInterface ItemDisplayInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 43</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Item Details&quot; hasNextEvent &quot;Click Checkout Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 56</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Item Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayPriceSummary -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayPriceSummary">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasNextEvent &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 95</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Price Summary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayProductList -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.DisplayProductList">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Products Icon&quot; hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 85</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Product List</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ItemDisplayInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ItemDisplayInterface">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.deleteButton"/>
+        <efbo:isElementOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.CartViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Item Details&quot; hasInterface ItemDisplayInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 43</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface hasElement deleteButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 52</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface isElementOf CartViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 49</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith ItemDisplayInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 45</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:ItemDisplayInterface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.cartIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.cartIcon">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CartViewController hasElement cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 107</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 111</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:cartIcon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.checkoutButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.checkoutButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Checkout Button&quot; hasInterface checkoutButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 59</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CartViewController hasElement checkoutButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 62</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith checkoutButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 69</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:checkoutButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.deleteButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.deleteButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface hasElement deleteButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 52</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:deleteButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.productsIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.productsIcon">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CartViewController hasElement productsIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 100</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith productsIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 103</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:productsIcon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ClickCheckoutButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ClickCheckoutButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.DisplayPriceSummary"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Checkout Button&quot; hasNextEvent &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 22</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Checkout Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ClickSendPaymentButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ClickSendPaymentButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.sendPaymentButton"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.SendPaymentVerificationtoServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Send Payment Button&quot; hasInterface sendPaymentButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 42</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Send Payment Button&quot; hasNextEvent &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 57</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Price Summary&quot; hasNextEvent &quot;Click Send Payment Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 37</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Send Payment Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.DisplayPriceSummary -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.DisplayPriceSummary">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalPaymentViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ClickSendPaymentButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Checkout Button&quot; hasNextEvent &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 22</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Price Summary&quot; hasInterface PayPalPaymentViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Price Summary&quot; hasNextEvent &quot;Click Send Payment Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 37</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Price Summary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalPaymentViewController -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalPaymentViewController">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.sendPaymentButton"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveFailedPaymentMessagefromServer"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveSuccessfulPaymentMessagefromServer"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.SendPaymentVerificationtoServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Price Summary&quot; hasInterface PayPalPaymentViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController hasElement sendPaymentButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 52</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController isInterfaceOf &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 102</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController isInterfaceOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 89</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController isInterfaceOf &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 63</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith PayPalPaymentViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 31</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:PayPalPaymentViewController</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalServerInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalServerInterface">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasInterface PayPalServerInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 71</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: server-agent interactsWith PayPalServerInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 76</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:PayPalServerInterface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveFailedPaymentMessagefromServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveFailedPaymentMessagefromServer">
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveSuccessfulPaymentMessagefromServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Receive Failed Payment Message from Server&quot; isAlternateEventOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 93</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController isInterfaceOf &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 102</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Receive Failed Payment Message from Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveSuccessfulPaymentMessagefromServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveSuccessfulPaymentMessagefromServer">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Receive Failed Payment Message from Server&quot; isAlternateEventOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 93</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 81</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController isInterfaceOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 89</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Receive Successful Payment Message from Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.SendPaymentVerificationtoServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.SendPaymentVerificationtoServer">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.VerifyPayment"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Send Payment Button&quot; hasNextEvent &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 57</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Send Payment Verification to Server&quot; hasNextEvent &quot;Verify Payment&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 68</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController isInterfaceOf &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 63</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Send Payment Verification to Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.VerifyPayment -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.VerifyPayment">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalServerInterface"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveFailedPaymentMessagefromServer"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.ReceiveSuccessfulPaymentMessagefromServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Send Payment Verification to Server&quot; hasNextEvent &quot;Verify Payment&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 68</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasInterface PayPalServerInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 71</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 81</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Verify Payment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.sendPaymentButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.sendPaymentButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Send Payment Button&quot; hasInterface sendPaymentButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 42</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalPaymentViewController hasElement sendPaymentButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 52</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith sendPaymentButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 48</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:sendPaymentButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.ClickAddtoCartButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.ClickAddtoCartButton">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.addToCartButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasInterface &quot;addToCartButton&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 40</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Select a Product&quot;	hasNextEvent &quot;Click Add to Cart Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 35</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Click Add to Cart Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.DisplayProductList -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.DisplayProductList">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.ProductsViewController"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.SelectaProduct"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Product List&quot; hasInterface ProductsViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 23</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Product List&quot; hasNextEvent &quot;Select a Product&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Event_Start hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 17</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Display Product List</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.Event_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.Event_Start">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.DisplayProductList"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Event_Start hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 17</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Event_Start</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.ProductsViewController -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.ProductsViewController">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#client-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Product List&quot; hasInterface ProductsViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 23</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductsViewController hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 27</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:ProductsViewController</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.SelectaProduct -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.SelectaProduct">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.ClickAddtoCartButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Product List&quot; hasNextEvent &quot;Select a Product&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Select a Product&quot;	hasNextEvent &quot;Click Add to Cart Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 35</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:Select a Product</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.addToCartButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.addToCartButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click Add to Cart Button&quot; hasInterface &quot;addToCartButton&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 40</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith &quot;addToCartButton&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 46</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:addToCartButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IOSShoppingExample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#client-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#client-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.CartViewController"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.ItemDisplayInterface"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalPaymentViewController"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductsViewController hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 27</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith CartViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 33</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith ItemDisplayInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 45</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith PayPalPaymentViewController
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 31</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:client agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#server-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#server-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.PayPalServerInterface"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: server-agent interactsWith PayPalServerInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 76</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:server agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#user-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#user-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.cartIcon"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.checkoutButton"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.CartViewController.m.productsIcon"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.PayPalPaymentViewController.m.sendPaymentButton"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#IOSShoppingExample.ProductsViewController.m.addToCartButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/IOSShoppingExample.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith &quot;addToCartButton&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/ProductsViewController.m
+Line Number: 46</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 111</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith checkoutButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 69</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith productsIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/CartViewController.m
+Line Number: 103</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith sendPaymentButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/IOSOnlineShopping/PayPalPaymentViewController.m
+Line Number: 48</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:user agent</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,66 @@
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:133	usernameField isInterfaceOf "Enter User Name"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\MainFrame.java
+Line:13	MainFrame hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:27	LoginDialog hasInteractionWith client-agent
+Line:62	LoginDialog hasElement loginPanel
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\Database.java
+Line:10	Database hasInteractionWith server-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:91	loginPanel hasElement usernameField
+Line:139	LoginDialog hasElement Account
+Line:104	passwordField hasInteractionWith user-agent
+Line:227	loginFailedDialog isElementOf LoginDialog
+Line:229	"Display Try Again"  isAlternateEventOf "Display Successful Login"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\Controller.java
+Line:18	Controller isInterfaceOf "Connect with Database Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:135	passwordField isInterfaceOf "Enter Password"
+Line:124	loginPanel hasElement btnLogIn
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\MainFrame.java
+Line:25	MainFrame hasElement loginDialog
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:147	LoginEventListener isInterfaceOf "Send Entered User Name"
+Line:221	loginSuccessDialog isInterfaceOf "Display Successful Login"
+Line:115	btnLogIn hasInteractionWith user-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\MainFrame.java
+Line:32	"Display Login Dialog" hasInterface loginDialog
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:83	usernameField hasInteractionWith user-agent
+Line:112	loginPanel hasElement passwordField
+Line:127	btnLogIn isInterfaceOf "Click Login Button"
+Line:148	LoginEventListener isInterfaceOf "Send Entered Password"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\Controller.java
+Line:8	Controller hasInteractionWith client-agent
+Line:34	Controller isInterfaceOf "Receive Account Validity Status From Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:141	Account isInterfaceOf "Get Entered Password"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\Controller.java
+Line:11	Database isInterfaceOf "Check Login Validity"
+Line:37	Controller isInterfaceOf "Send Login Account To Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:228	loginFailedDialog isInterfaceOf "Display Try Again"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\MainFrame.java
+Line:75	MainFrame isInterfaceOf "Send Account Info"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\LoginJava\LoginDialog.java
+Line:140	Account isInterfaceOf "Get Entered User Name"
+Line:220	loginSuccessDialog isElementOf LoginDialog
+Line:146	LoginDialog hasElement LoginEventListener

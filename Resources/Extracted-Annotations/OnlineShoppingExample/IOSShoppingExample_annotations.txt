@@ -1,0 +1,108 @@
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:52	PayPalPaymentViewController hasElement sendPaymentButton
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:69	user-agent interactsWith checkoutButton
+Line:33	client-agent interactsWith CartViewController
+Line:85	"Click Products Icon" hasNextEvent "Display Product List"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\ProductsViewController.m
+Line:27	ProductsViewController hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:43	"Display Item Details" hasInterface ItemDisplayInterface
+Line:62	CartViewController hasElement checkoutButton
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:57	"Click Send Payment Button" hasNextEvent "Send Payment Verification to Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:56	"Display Item Details" hasNextEvent "Click Checkout Button"
+Line:91	"Click Add to Cart Button" hasNextEvent "Click Cart Icon"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:68	"Send Payment Verification to Server" hasNextEvent "Verify Payment"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:49	ItemDisplayInterface isElementOf CartViewController
+Line:95	"Click Add to Cart Button" hasNextEvent "Display Price Summary"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:22	"Click Checkout Button" hasNextEvent "Display Price Summary"
+Line:76	server-agent interactsWith PayPalServerInterface
+Line:93	"Receive Failed Payment Message from Server" isAlternateEventOf "Receive Successful Payment Message from Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\ProductsViewController.m
+Line:23	"Display Product List" hasInterface ProductsViewController
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:102	PayPalPaymentViewController isInterfaceOf "Receive Failed Payment Message from Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:26	"Add Selected Item to the Cart" hasInterface CartViewController
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:48	user-agent interactsWith sendPaymentButton
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:103	user-agent interactsWith productsIcon
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\ProductsViewController.m
+Line:35	"Select a Product"	hasNextEvent "Click Add to Cart Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:81	"Verify Payment" hasNextEvent "Receive Successful Payment Message from Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:38	"Add Selected Item to the Cart" hasNextEvent "Display Item Details"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:26	"Display Price Summary" hasInterface PayPalPaymentViewController
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:111	user-agent interactsWith cartIcon
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:71	"Verify Payment" hasInterface PayPalServerInterface
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:45	client-agent interactsWith ItemDisplayInterface
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\ProductsViewController.m
+Line:30	"Display Product List" hasNextEvent "Select a Product"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:81	"Click Add to Cart Button" hasNextEvent "Click Products Icon"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:42	"Click Send Payment Button" hasInterface sendPaymentButton
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:52	ItemDisplayInterface hasElement deleteButton
+Line:100	CartViewController hasElement productsIcon
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:37	"Display Price Summary" hasNextEvent "Click Send Payment Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:22	"Click Add to Cart Button" hasNextEvent "Add Selected Item to the Cart"
+Line:59	"Click Checkout Button" hasInterface checkoutButton
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:87	"Verify Payment" hasNextEvent "Receive Failed Payment Message from Server"
+Line:89	PayPalPaymentViewController isInterfaceOf "Receive Successful Payment Message from Server"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\ProductsViewController.m
+Line:17	Event_Start hasNextEvent "Display Product List"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\CartViewController.m
+Line:107	CartViewController hasElement cartIcon
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\ProductsViewController.m
+Line:40	"Click Add to Cart Button" hasInterface "addToCartButton"
+Line:46	user-agent interactsWith "addToCartButton"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\OnlineShopping\IOSOnlineShopping\PayPalPaymentViewController.m
+Line:31	client-agent interactsWith PayPalPaymentViewController
+Line:63	PayPalPaymentViewController isInterfaceOf "Send Payment Verification to Server"

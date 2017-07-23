@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#"
+     xml:base="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl"
+     xmlns:efbo="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl">
+        <owl:imports rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.CheckLoginValidity -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.CheckLoginValidity">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Database isInterfaceOf &quot;Check Login Validity&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 11</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Check Login Validity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.ConnectwithDatabaseServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.ConnectwithDatabaseServer">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller isInterfaceOf &quot;Connect with Database Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 18</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Connect with Database Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.Controller -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.Controller">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.ConnectwithDatabaseServer"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.ReceiveAccountValidityStatusFromServer"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.SendLoginAccountToServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 8</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller isInterfaceOf &quot;Connect with Database Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 18</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller isInterfaceOf &quot;Receive Account Validity Status From Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 34</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller isInterfaceOf &quot;Send Login Account To Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 37</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Controller</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.Database -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.Database">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.CheckLoginValidity"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Database isInterfaceOf &quot;Check Login Validity&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 11</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Database</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.ReceiveAccountValidityStatusFromServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.ReceiveAccountValidityStatusFromServer">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller isInterfaceOf &quot;Receive Account Validity Status From Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 34</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Receive Account Validity Status From Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.SendLoginAccountToServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Controller.java.SendLoginAccountToServer">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller isInterfaceOf &quot;Send Login Account To Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 37</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Send Login Account To Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Database.java.Database -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.Database.java.Database">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#server-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Database hasInteractionWith server-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Database.java
+Line Number: 10</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Database</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LogInEventListener.java.LogInEventListener -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LogInEventListener.java.LogInEventListener">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#client-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LogInEventListener hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LogInEventListener.java
+Line Number: 5</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:LogInEventListener</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.Account -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.Account">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.GetEnteredPassword"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.GetEnteredUserName"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Account isInterfaceOf &quot;Get Entered Password&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 141</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Account isInterfaceOf &quot;Get Entered User Name&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 140</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasElement Account
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 139</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Account</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.ClickLoginButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.ClickLoginButton">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: btnLogIn isInterfaceOf &quot;Click Login Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 127</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click Login Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.DisplaySuccessfulLogin -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.DisplaySuccessfulLogin">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Try Again&quot;  isAlternateEventOf &quot;Display Successful Login&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 229</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginSuccessDialog isInterfaceOf &quot;Display Successful Login&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 221</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Successful Login</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.DisplayTryAgain -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.DisplayTryAgain">
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.DisplaySuccessfulLogin"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Try Again&quot;  isAlternateEventOf &quot;Display Successful Login&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 229</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginFailedDialog isInterfaceOf &quot;Display Try Again&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 228</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Try Again</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.EnterPassword -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.EnterPassword">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: passwordField isInterfaceOf &quot;Enter Password&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 135</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Enter Password</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.EnterUserName -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.EnterUserName">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: usernameField isInterfaceOf &quot;Enter User Name&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 133</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Enter User Name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.GetEnteredPassword -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.GetEnteredPassword">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Account isInterfaceOf &quot;Get Entered Password&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 141</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Get Entered Password</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.GetEnteredUserName -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.GetEnteredUserName">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Account isInterfaceOf &quot;Get Entered User Name&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 140</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Get Entered User Name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.LoginDialog -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.LoginDialog">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.Account"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.LoginEventListener"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.loginPanel"/>
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#client-agent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasElement Account
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 139</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasElement LoginEventListener
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 146</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasElement loginPanel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 62</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 27</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginFailedDialog isElementOf LoginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 227</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginSuccessDialog isElementOf LoginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 220</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:LoginDialog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.LoginEventListener -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.LoginEventListener">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.SendEnteredPassword"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.SendEnteredUserName"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasElement LoginEventListener
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 146</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginEventListener isInterfaceOf &quot;Send Entered Password&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 148</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginEventListener isInterfaceOf &quot;Send Entered User Name&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 147</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:LoginEventListener</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.SendEnteredPassword -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.SendEnteredPassword">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginEventListener isInterfaceOf &quot;Send Entered Password&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 148</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Send Entered Password</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.SendEnteredUserName -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.SendEnteredUserName">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginEventListener isInterfaceOf &quot;Send Entered User Name&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 147</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Send Entered User Name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.btnLogIn -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.btnLogIn">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.ClickLoginButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: btnLogIn hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 115</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: btnLogIn isInterfaceOf &quot;Click Login Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 127</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginPanel hasElement btnLogIn
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 124</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:btnLogIn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.loginFailedDialog -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.loginFailedDialog">
+        <efbo:isElementOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.LoginDialog"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.DisplayTryAgain"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginFailedDialog isElementOf LoginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 227</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginFailedDialog isInterfaceOf &quot;Display Try Again&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 228</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:loginFailedDialog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.loginPanel -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.loginPanel">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.btnLogIn"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.passwordField"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.usernameField"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasElement loginPanel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 62</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginPanel hasElement btnLogIn
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 124</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginPanel hasElement passwordField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 112</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginPanel hasElement usernameField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 91</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:loginPanel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.loginSuccessDialog -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.loginSuccessDialog">
+        <efbo:isElementOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.LoginDialog"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.DisplaySuccessfulLogin"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginSuccessDialog isElementOf LoginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 220</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginSuccessDialog isInterfaceOf &quot;Display Successful Login&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 221</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:loginSuccessDialog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.passwordField -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.passwordField">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.EnterPassword"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginPanel hasElement passwordField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 112</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: passwordField hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 104</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: passwordField isInterfaceOf &quot;Enter Password&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 135</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:passwordField</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.usernameField -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.usernameField">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.LoginDialog.java.EnterUserName"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: loginPanel hasElement usernameField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 91</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: usernameField hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 83</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: usernameField isInterfaceOf &quot;Enter User Name&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 133</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:usernameField</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.DisplayLoginDialog -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.DisplayLoginDialog">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.loginDialog"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Login Dialog&quot; hasInterface loginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 32</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Login Dialog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.MainFrame -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.MainFrame">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.loginDialog"/>
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.SendAccountInfo"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainFrame hasElement loginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 25</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainFrame hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 13</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainFrame isInterfaceOf &quot;Send Account Info&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 75</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:MainFrame</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.SendAccountInfo -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.SendAccountInfo">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainFrame isInterfaceOf &quot;Send Account Info&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 75</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Send Account Info</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.loginDialog -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#Java-Login.MainFrame.java.loginDialog">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Login Dialog&quot; hasInterface loginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 32</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainFrame hasElement loginDialog
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 25</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:loginDialog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Java-Login</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#client-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#client-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Controller hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Controller.java
+Line Number: 8</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LogInEventListener hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LogInEventListener.java
+Line Number: 5</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: LoginDialog hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 27</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: MainFrame hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/MainFrame.java
+Line Number: 13</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:client agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#server-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#server-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Database hasInteractionWith server-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/Database.java
+Line Number: 10</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:server agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#user-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#user-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Java-Login.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: btnLogIn hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 115</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: passwordField hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 104</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: usernameField hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/LoginJava/LoginDialog.java
+Line Number: 83</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:user agent</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

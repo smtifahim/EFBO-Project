@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#"
+     xml:base="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl"
+     xmlns:efbo="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl">
+        <owl:imports rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasFinalEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasFinalEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInitialEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInitialEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isElementOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java.EVENT_END -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java.EVENT_END">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeTheUser hasNextEvent EVENT_END
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 20</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:EVENT_END</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java.EVENT_START -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java.EVENT_START">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapAppIcon"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: EVENT_START hasNextEvent _tapAppIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 4</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:EVENT_START</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appIcon">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tapAppIcon hasInterface _appIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 27</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _appIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 46</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_appIcon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appInterface">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _launchAppInterface hasInterface _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 28</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI isElementOf _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tryAgainUI isElementOf _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 42</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeUserUI isElementOf _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 39</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 47</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_appInterface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterPassword -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterPassword">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapLoginButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _enterPassword hasNextEvent _tapLoginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 14</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _enterUserName hasNextEvent _enterPassword
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 12</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _passwordField isInterfaceOf _enterPassword
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 34</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentLoginUI hasNextEvent _enterPassword
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 9</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_enterPassword</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterUserName -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterUserName">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterPassword"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _enterUserName hasNextEvent _enterPassword
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 12</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentLoginUI hasNextEvent _enterUserName
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 7</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _userNameField isInterfaceOf _enterUserName
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 32</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_enterUserName</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._launchAppInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._launchAppInterface">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appInterface"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentLoginUI"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _launchAppInterface hasInterface _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 28</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _launchAppInterface hasNextEvent _presentLoginUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 6</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tapAppIcon hasNextEvent _launchAppInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 5</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_launchAppInterface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginButton">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapLoginButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginButton isInterfaceOf _tapLoginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 36</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI hasElement _loginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 35</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _loginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 51</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_loginButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginFunctionality -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginFunctionality">
+        <efbo:hasFinalEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeTheUser"/>
+        <efbo:hasInitialEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapAppIcon"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginFunctionality hasFinalEvent _welcomeTheUser
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 24</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginFunctionality hasInitialEvent _tapAppIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 23</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_loginFunctionality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginInterfaceUI -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginInterfaceUI">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginButton"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._passwordField"/>
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._userNameField"/>
+        <efbo:isElementOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appInterface"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI hasElement _loginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 35</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI hasElement _passwordField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 33</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI hasElement _userNameField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 31</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI isElementOf _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 30</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentLoginUI hasInterface _loginInterfaceUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 29</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tryAgainUI hasElement _loginInterfaceUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 43</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_loginInterfaceUI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._logininterfaceUI -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._logininterfaceUI">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _logininterfaceUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 48</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_logininterfaceUI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._passwordField -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._passwordField">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterPassword"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI hasElement _passwordField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 33</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _passwordField isInterfaceOf _enterPassword
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 34</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _passwordField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 50</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_passwordField</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentLoginUI -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentLoginUI">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginInterfaceUI"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterPassword"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterUserName"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _launchAppInterface hasNextEvent _presentLoginUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 6</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentLoginUI hasInterface _loginInterfaceUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 29</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentLoginUI hasNextEvent _enterPassword
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 9</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentLoginUI hasNextEvent _enterUserName
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 7</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentTryAgainUI hasNextEvent _presentLoginUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 17</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_presentLoginUI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentTryAgainUI -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentTryAgainUI">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tryAgainUI"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentLoginUI"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentTryAgainUI hasInterface _tryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 41</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentTryAgainUI hasNextEvent _presentLoginUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 17</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _verifyUserInfo hasNextEvent _presentTryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 16</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeTheUser isAlternateEventOf _presentTryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 19</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_presentTryAgainUI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._serverInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._serverInterface">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _verifyUserInfo hasInterface _serverInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 37</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: server-agent interactsWith _serverInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 52</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_serverInterface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapAppIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapAppIcon">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appIcon"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._launchAppInterface"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: EVENT_START hasNextEvent _tapAppIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 4</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginFunctionality hasInitialEvent _tapAppIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 23</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tapAppIcon hasInterface _appIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 27</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tapAppIcon hasNextEvent _launchAppInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 5</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_tapAppIcon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapLoginButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tapLoginButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._verifyUserInfo"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _enterPassword hasNextEvent _tapLoginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 14</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginButton isInterfaceOf _tapLoginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 36</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tapLoginButton hasNextEvent _verifyUserInfo
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 15</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_tapLoginButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tryAgainUI -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tryAgainUI">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginInterfaceUI"/>
+        <efbo:isElementOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appInterface"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _presentTryAgainUI hasInterface _tryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 41</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tryAgainUI hasElement _loginInterfaceUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 43</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tryAgainUI isElementOf _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 42</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _tryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 54</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_tryAgainUI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._userNameField -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._userNameField">
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._enterUserName"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginInterfaceUI hasElement _userNameField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 31</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _userNameField isInterfaceOf _enterUserName
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 32</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _userNameField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 49</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_userNameField</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._verifyUserInfo -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._verifyUserInfo">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._serverInterface"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentTryAgainUI"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeTheUser"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _tapLoginButton hasNextEvent _verifyUserInfo
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 15</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _verifyUserInfo hasInterface _serverInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 37</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _verifyUserInfo hasNextEvent _presentTryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 16</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _verifyUserInfo hasNextEvent _welcomeTheUser
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 18</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_verifyUserInfo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeLabel -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeLabel">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeUserUI hasElement _welcomeLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 40</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_welcomeLabel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeTheUser -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeTheUser">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeUserUI"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java.EVENT_END"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._presentTryAgainUI"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _loginFunctionality hasFinalEvent _welcomeTheUser
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 24</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _verifyUserInfo hasNextEvent _welcomeTheUser
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 18</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeTheUser hasInterface _welcomeUserUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 38</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeTheUser hasNextEvent EVENT_END
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 20</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeTheUser isAlternateEventOf _presentTryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 19</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_welcomeTheUser</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeUserUI -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeUserUI">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeLabel"/>
+        <efbo:isElementOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appInterface"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeTheUser hasInterface _welcomeUserUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 38</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeUserUI hasElement _welcomeLabel
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 40</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: _welcomeUserUI isElementOf _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 39</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _welcomeUserUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 53</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:_welcomeUserUI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Android-Login</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#client-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#client-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appInterface"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._logininterfaceUI"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._tryAgainUI"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._welcomeUserUI"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _appInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 47</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _logininterfaceUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 48</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _tryAgainUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 54</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: client-agent interactsWith _welcomeUserUI
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 53</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:client agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#server-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#server-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._serverInterface"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: server-agent interactsWith _serverInterface
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 52</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:server agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#user-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#user-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._appIcon"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._loginButton"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._passwordField"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#Android-Login.testing.java._userNameField"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/Android-Login.owl#System-2"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _appIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 46</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _loginButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 51</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _passwordField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 50</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith _userNameField
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/testing.java
+Line Number: 49</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-2:user agent</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

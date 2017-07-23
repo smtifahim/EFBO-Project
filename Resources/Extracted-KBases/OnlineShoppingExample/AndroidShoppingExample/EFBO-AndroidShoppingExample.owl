@@ -1,0 +1,754 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#"
+     xml:base="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl"
+     xmlns:efbo="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl">
+        <owl:imports rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#annotationText"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasElement"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInteractionWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasInterface"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#hasNextEvent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#interactsWith"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isAlternateEventOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isInterfaceOf"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#isSystemEntityOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent -->
+
+    <owl:Class rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.CheckoutActivity -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.CheckoutActivity">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayPriceSummary"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CheckoutActivity hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CheckoutActivity isInterfaceOf &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 40</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:CheckoutActivity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCARTicon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCARTicon">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayPriceSummary"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CART icon&quot; hasNextEvent &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 24</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click CART icon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCHECKOUTButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCHECKOUTButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayPaywithPayPalScreen"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CHECKOUT Button&quot; hasNextEvent &quot;Display Pay with PayPal Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 91</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CONTINUE SHOPPING Button&quot; isAlternateEventOf &quot;Click CHECKOUT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 83</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: checkButton isInterfaceOf &quot;Click CHECKOUT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 84</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click CHECKOUT Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCONTINUESHOPPINGButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCONTINUESHOPPINGButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayProductList"/>
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCHECKOUTButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CONTINUE SHOPPING Button&quot; hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 77</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CONTINUE SHOPPING Button&quot; isAlternateEventOf &quot;Click CHECKOUT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 83</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: shoppingButton isInterfaceOf &quot;Click CONTINUE SHOPPING Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 69</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click CONTINUE SHOPPING Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayPaywithPayPalScreen -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayPaywithPayPalScreen">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CHECKOUT Button&quot; hasNextEvent &quot;Display Pay with PayPal Screen&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 91</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Pay with PayPal Screen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayPriceSummary -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayPriceSummary">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CART icon&quot; hasNextEvent &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 24</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CheckoutActivity isInterfaceOf &quot;Display Price Summary&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 40</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Price Summary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayProductList -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.DisplayProductList">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CONTINUE SHOPPING Button&quot; hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 77</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Product List</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.checkButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.checkButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCHECKOUTButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: checkButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: checkButton isInterfaceOf &quot;Click CHECKOUT Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 84</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:checkButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.shoppingButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.shoppingButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.CheckoutActivity.java.ClickCONTINUESHOPPINGButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: shoppingButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 73</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: shoppingButton isInterfaceOf &quot;Click CONTINUE SHOPPING Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 69</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:shoppingButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ClickPAYWITHPAYPALButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ClickPAYWITHPAYPALButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.SendPaymentVerificationtoServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click PAY WITH PAYPAL Button&quot; hasNextEvent &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 125</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: payPalButton isInterfaceOf &quot;Click PAY WITH PAYPAL Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 69</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click PAY WITH PAYPAL Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.DisplayPaywithPayPalScreen -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.DisplayPaywithPayPalScreen">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.PayPalCheckoutActivityClass"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Pay with PayPal Screen&quot; hasInterface PayPalCheckoutActivityClass
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 54</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Pay with PayPal Screen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.PayPalCheckoutActivityClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.PayPalCheckoutActivityClass">
+        <efbo:hasElement rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.payPalButton"/>
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveFailedPaymentMessagefromServer"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveSuccessfulPaymentMessagefromServer"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.SendPaymentVerificationtoServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Pay with PayPal Screen&quot; hasInterface PayPalCheckoutActivityClass
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 54</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass hasElement payPalButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 68</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 36</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass isInterfaceOf &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 167</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass isInterfaceOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 160</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass isInterfaceOf &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 126</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:PayPalCheckoutActivityClass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.PayPalServerInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.PayPalServerInterface">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#server-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.VerifyPayment"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalServerInterface hasInteractionWith server-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 137</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalServerInterface isInterfaceOf &quot;Verify Payment&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 136</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:PayPalServerInterface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveFailedPaymentMessagefromServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveFailedPaymentMessagefromServer">
+        <efbo:isAlternateEventOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveSuccessfulPaymentMessagefromServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Receive Failed Payment Message from Server&quot; isAlternateEventOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 165</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 168</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass isInterfaceOf &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 167</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Receive Failed Payment Message from Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveSuccessfulPaymentMessagefromServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveSuccessfulPaymentMessagefromServer">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Receive Failed Payment Message from Server&quot; isAlternateEventOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 165</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 161</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass isInterfaceOf &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 160</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Receive Successful Payment Message from Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.SendPaymentVerificationtoServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.SendPaymentVerificationtoServer">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.VerifyPayment"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click PAY WITH PAYPAL Button&quot; hasNextEvent &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 125</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Send Payment Verification to Server&quot; hasNextEvent &quot;Verify Payment&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 132</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass isInterfaceOf &quot;Send Payment Verification to Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 126</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Send Payment Verification to Server</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.VerifyPayment -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.VerifyPayment">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveFailedPaymentMessagefromServer"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ReceiveSuccessfulPaymentMessagefromServer"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Send Payment Verification to Server&quot; hasNextEvent &quot;Verify Payment&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 132</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Failed Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 168</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Verify Payment&quot; hasNextEvent &quot;Receive Successful Payment Message from Server&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 161</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalServerInterface isInterfaceOf &quot;Verify Payment&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 136</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Verify Payment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.payPalButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.payPalButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.PayPalCheckoutActivity.java.ClickPAYWITHPAYPALButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass hasElement payPalButton
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 68</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: payPalButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 72</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: payPalButton isInterfaceOf &quot;Click PAY WITH PAYPAL Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 69</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:payPalButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.AddSelectedItemtotheCart -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.AddSelectedItemtotheCart">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click ADD TO CART Button&quot; hasNextEvent &quot;Add Selected Item to the Cart&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 83</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductActivityClass isInterfaceOf &quot;Add Selected Item to the Cart&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 84</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Add Selected Item to the Cart</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ClickADDTOCARTButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ClickADDTOCARTButton">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.AddSelectedItemtotheCart"/>
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.DisplayCartIcon"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click ADD TO CART Button&quot; hasNextEvent &quot;Add Selected Item to the Cart&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 83</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click ADD TO CART Button&quot; hasNextEvent &quot;Display Cart Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 82</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: addToCartButton isInterfaceOf &quot;Click ADD TO CART Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 79</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click ADD TO CART Button</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ClickCARTIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ClickCARTIcon">
+        <efbo:hasInterface rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.cartIcon"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CART Icon&quot; hasInterface cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Cart Icon&quot; hasNextEvent &quot;Click CART Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 86</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Click CART Icon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.DisplayCartIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.DisplayCartIcon">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ClickCARTIcon"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click ADD TO CART Button&quot; hasNextEvent &quot;Display Cart Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 82</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Cart Icon&quot; hasNextEvent &quot;Click CART Icon&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 86</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Cart Icon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.DisplaySelectedProductDetails -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.DisplaySelectedProductDetails">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductActivityClass isInterfaceOf &quot;Display Selected Product Details&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 48</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Selected Product Details</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ItemDisplayInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ItemDisplayInterface">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.SelectaProductItem"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 71</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface isInterfaceOf &quot;Select a Product Item&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 56</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:ItemDisplayInterface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ProductActivityClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ProductActivityClass">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.AddSelectedItemtotheCart"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.DisplaySelectedProductDetails"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 29</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductActivityClass isInterfaceOf &quot;Add Selected Item to the Cart&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 84</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductActivityClass isInterfaceOf &quot;Display Selected Product Details&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 48</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:ProductActivityClass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.SelectaProductItem -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.SelectaProductItem">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface isInterfaceOf &quot;Select a Product Item&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 56</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Select a Product Item</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.addToCartButton -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.addToCartButton">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#user-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.ClickADDTOCARTButton"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: addToCartButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 90</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: addToCartButton isInterfaceOf &quot;Click ADD TO CART Button&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 79</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:addToCartButton</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.cartIcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.cartIcon">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Click CART Icon&quot; hasInterface cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 88</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:cartIcon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.DisplayProductList -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.DisplayProductList">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.SelectaProduct"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Product List&quot; hasNextEvent &quot;Select a Product&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 39</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Event_Start hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 16</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ShoppingActivityClass isInterfaceOf &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 27</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Display Product List</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.Event_Start -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.Event_Start">
+        <efbo:hasNextEvent rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.DisplayProductList"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: Event_Start hasNextEvent &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 16</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Event_Start</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.SelectaProduct -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.SelectaProduct">
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: &quot;Display Product List&quot; hasNextEvent &quot;Select a Product&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 39</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:Select a Product</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.ShoppingActivityClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.ShoppingActivityClass">
+        <efbo:hasInteractionWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#client-agent"/>
+        <efbo:isInterfaceOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ShoppingActivity.java.DisplayProductList"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ShoppingActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 17</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ShoppingActivityClass isInterfaceOf &quot;Display Product List&quot;
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 27</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:ShoppingActivityClass</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#System"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AndroidShoppingExample</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#client-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#client-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ClientAgent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: CheckoutActivity hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 26</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalCheckoutActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 36</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ProductActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 29</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ShoppingActivityClass hasInteractionWith client-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ShoppingActivity.java
+Line Number: 17</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:client agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#server-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#server-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#ServerAgent"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: PayPalServerInterface hasInteractionWith server-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 137</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:server agent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#user-agent -->
+
+    <owl:NamedIndividual rdf:about="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#user-agent">
+        <rdf:type rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo.owl#UserAgent"/>
+        <efbo:interactsWith rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#AndroidShoppingExample.ProductActivity.java.cartIcon"/>
+        <efbo:isSystemEntityOf rdf:resource="http://www.cs.queensu.ca/~imam/ontologies/efbo-kb/AndroidShoppingExample.owl#System-1"/>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: ItemDisplayInterface hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 71</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: addToCartButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 90</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: checkButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 87</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: payPalButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/PayPalCheckoutActivity.java
+Line Number: 72</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: shoppingButton hasInteractionWith user-agent
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/CheckoutActivity.java
+Line Number: 73</efbo:annotationText>
+        <efbo:annotationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation: user-agent interactsWith cartIcon
+Location: file://C:/Users/Fahim/git/EFBO-PCM/EFBO/Resources/Annotated-Sources/OnlineShopping/AndroidOnlineShopping/ProductActivity.java
+Line Number: 88</efbo:annotationText>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">System-1:user agent</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+

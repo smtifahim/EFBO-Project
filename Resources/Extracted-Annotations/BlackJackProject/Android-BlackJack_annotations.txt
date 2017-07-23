@@ -1,0 +1,232 @@
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:129	dealerHandView isInterfaceOf "Display Dealer Hand"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:41	"Click Increment Bet Button" hasNextEvent "Display Updated Bet"
+Line:80	GameActivityClass isInterfaceOf "Display Game Activity Screen"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:104	decrementBetButton isInterfaceOf "Click Decrement Bet Button"
+Line:456	client-agent interactsWith playerScoreTextView
+Line:93	handOverTextView isInterfaceOf "Display Final Outcome"
+Line:287	incrementBetButton hasInteractionWith user-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:65	GameActivityClass hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:369	"Evaluate Player Outcome" hasNextEvent "Evaluation is PLAYER_WIN"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:58	"Click STAY Button" hasNextEvent "Flip Dealer Second Card"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:360	"Evaluation is PLAYER_BLACKJACK" isAlternateEventOf "Evaluation is DEALER_BLACKJACK"
+Line:353	"Evaluate Player Outcome" hasNextEvent "Evaluation is PLAYER_BLACKJACK"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:46	"Enable BET button" hasNextEvent "Click BET button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:553	"Game Status is WAITING" hasNextEvent "Hide HIT Button"
+Line:84	betTextView isInterfaceOf "Display Player Bet"
+Line:356	"Evaluation is PLAYER_BLACKJACK" hasNextEvent "Display Player Blackjack Message"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:32	"Display Game Activity Screen" hasNextEvent "Display Player Hand"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:546	"Game Status is WAITING" isAlternateEventOf "Game Status is HITTING"
+Line:495	button_play_again hasInteractionWith user-agent
+Line:118	hitAndStayView isInterfaceOf "Hide STAY Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:53	"Click HIT Button" hasNextEvent "Observe Game Status"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:573	"Game Status is SHOWDOWN" hasNextEvent "Hide STAY Button"
+Line:388	"Evaluation is DEALER_WIN" hasNextEvent "Display Player Lost Message"
+Line:569	"Game Status is SHOWDOWN" hasNextEvent "Hide Bet Decision"
+Line:530	"Game Status is HITTING" hasNextEvent "Hide Bet Decision"
+Line:117	hitAndStayView isInterfaceOf "Display STAY Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:50	"Flip Player Cards" hasNextEvent "Observe Game Status"
+Line:44	"Click Increment Bet Button" isAlternateEventOf "Click Decrement Bet Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:83	betTextView isInterfaceOf "Display Updated Bet"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:37	"Click Increment Bet Button" hasNextEvent "Enable BET Button"
+Line:59	"Flip Dealer Second Card" hasNextEvent "Observe Game Status"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:101	incrementBetButton isInterfaceOf "Click Increment Bet Button"
+Line:348	client-agent interactsWith handOverTextView
+Line:518	playAgainView hasInteractionWith client-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:61	"Display PLAY AGAIN Button" hasNextEvent "Click PLAY AGAIN Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:125	waitingView isInterfaceOf "Display Waiting View"
+Line:380	"Evaluation is DEALER_BUST" hasNextEvent "Display Dealer Busted Message"
+Line:509	hitAndStayView hasInteractionWith client-agent
+Line:314	hitButton hasInteractionWith user-agent
+Line:522	betDecisionView hasInteractionWith client-agent
+Line:368	"Evaluation is PLAYER_BLACKJACK" isAlternateEventOf "Evaluation is PLAYER_WIN"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:35	"Enable IncrementBet Button" hasNextEvent "Click Increment Bet Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:560	"Game Status is WAITING" hasNextEvent "Display Waiting View"
+Line:427	client-agent interactsWith dealerScoreTextView
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:62	"Click PLAY AGAIN Button" hasNextEvent "Display Game Activity Screen"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:393	"Evaluate Player Outcome" hasNextEvent "Evaluation is PLAYER_BUST"
+Line:364	"Evaluation is DEALER_BLACKJACK" hasNextEvent "Display Player Lost Message"
+Line:90	dealerScoreTextView isInterfaceOf "Display Dealer Score"
+Line:504	showDecisionView hasInitialEvent "Observe Game Status"
+Line:87	playerScoreTextView isInterfaceOf "Display Player Score"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\MainActivity.java
+Line:30	"Click Play Button" hasNextEvent "Display Game Activity Screen"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:410	client-agent interactsWith dealerHandView
+Line:519	"Game Status is BETTING" hasNextEvent "Hide PLAY AGAIN Button"
+Line:111	betDecisionView isInterfaceOf "Display Bet Decision"
+Line:349	"Evaluation is PUSH" hasNextEvent "Display PUSH Message"
+Line:540	"Game Status is HITTING" hasNextEvent "Display STAY Button"
+Line:554	"Game Status is WAITING" hasNextEvent "Hide STAY Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:42	"Click Decrement Bet Button" hasNextEvent "Display Updated Bet"
+Line:31	"Display Game Activity Screen" hasNextEvent "Display Dealer Hand"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:79	moneyTextView isInterfaceOf "Display Player Money"
+Line:572	"Game Status is SHOWDOWN" hasNextEvent "Hide HIT Button"
+Line:126	waitingView isInterfaceOf "Hide Waiting View"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\MainActivity.java
+Line:17	"Event_Start" hasNextEvent "Display Main Activity Screen"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:33	"Display Game Activity Screen" hasNextEvent "Display Player Bet"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:372	"Evaluation is PLAYER_WIN" hasNextEvent "Display Player Won Message"
+Line:536	"Game Status is HITTING" hasNextEvent "Hide PLAY AGAIN Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:63	"Click PLAY AGAIN Button" hasNextEvent "Display Updated Player Money"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:121	playAgainView isInterfaceOf "Display PLAY AGAIN Button"
+Line:377	"Evaluate Player Outcome" hasNextEvent "Evaluation is DEALER_BUST"
+Line:336	setShowdownText hasInitialEvent "Evaluate Player Outcome"
+Line:346	"Evaluate Player Outcome" hasNextEvent "Evaluation is PUSH"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:39	"Enable Decrement Bet Button" hasNextEvent "Click Decrement Bet Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:533	"Game Status is HITTING" hasNextEvent "Hide Waiting View"
+Line:510	"Game Status is BETTING" hasNextEvent "Hide HIT Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:55	"Deal Additional Player Card" hasNextEvent "Observe Game Status"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:132	playerHandView isInterfaceOf "Display Player Hand"
+Line:539	"Game Status is HITTING" hasNextEvent "Display HIT Button"
+Line:274	decrementBetButton hasInteractionWith user-agent
+Line:515	"Game Status is BETTING" hasNextEvent "Hide Waiting View"
+Line:80	moneyTextView isInterfaceOf "Display Updated Player Money"
+Line:98	betButton isInterfaceOf "Click Bet Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\MainActivity.java
+Line:24	"Display Main Activity Screen" hasNextEvent "Click Play Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:49	"Click BET button" hasNextEvent "Flip Player Cards"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:507	"Observe Game Status" hasNextEvent "Game Status is BETTING"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\MainActivity.java
+Line:18	MainActivityClass isInterfaceOf "Display Main Activity Screen"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:45	"Click Increment Bet Button"  isAlternateEventOf "Click BET Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:514	waitingView hasInteractionWith client-agent
+Line:564	"Observe Game Status" hasNextEvent "Game Status is SHOWDOWN"
+Line:300	betButton hasInteractionWith user-agent
+Line:505	showDecisionView hasFinalEvent "Display Play Again Button"
+Line:511	"Game Status is BETTING" hasNextEvent "Hide STAY Button"
+Line:112	betDecisionView isInterfaceOf "Hide Bet Decision"
+Line:523	"Game Status is BETTING" hasNextEvent "Display Bet Decision"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:30	"Display Game Activity Screen" hasNextEvent "Display Player Money"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:361	"Evaluate Player Outcome" hasNextEvent "Evaluation is DEALER_BLACKJACK"
+Line:526	"Game Status is BETTING" isAlternateEventOf "Game Status is HITTING"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:54	"Click HIT Button" hasNextEvent "Deal Additional Player Card"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:116	hitAndStayView isInterfaceOf "Hide HIT Button"
+Line:550	"Game Status is WAITING" hasNextEvent "Hide Bet Decision"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\MainActivity.java
+Line:25	playButton hasInteractionWith user-agent
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:563	"Game Status is WAITING" isAlternateEventOf "Game Status is SHOWDOWN"
+Line:122	playAgainView isInterfaceOf "Hide PLAY AGAIN Button"
+Line:385	"Evaluate Player Outcome" hasNextEvent "Evaluation is DEALER_WIN"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:38	"Click Increment Bet Button" hasNextEvent "Enable Decrement Bet Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:343	"Evaluate Player Outcome" hasInterface PlayerClass
+Line:384	"Evaluation is DEALER_WIN" isAlternateEventOf "Evaluation is DEALER_BUST"
+Line:576	"Game Status is SHOWDOWN" hasNextEvent "Hide Waiting View"
+Line:344	server-agent interactsWith PlayerClass
+Line:432	client-agent interactsWith playerHandView
+Line:396	"Evaluation is DEALER_BUST" hasNextEvent "Display Over 21 Player Lost Message"
+Line:320	stayButton hasInteractionWith user-agent
+Line:376	"Evaluation is DEALER_BUST" isAlternateEventOf "Evaluation is PLAYER_WIN"
+Line:547	"Observe Game Status" hasNextEvent "Game Status is WAITING"
+Line:566	"Game Status is SHOWDOWN" hasNextEvent "Evaluate Player Outcome"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:34	"Display Game Activity Screen" hasNextEvent "Enable Increment Bet Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameFragment.java
+Line:557	"Game Status is WAITING" hasNextEvent "Hide PLAY AGAIN Button"
+Line:115	hitAndStayView isInterfaceOf "Display HIT Button"
+Line:392	"Evaluation is DEALER_WIN" isAlternateEventOf "Evaluation is PLAYER_BUST"
+Line:579	"Game Status is SHOWDOWN" hasNextEvent "Display PLAY AGAIN Button"
+Line:527	"Observe Game Status" hasNextEvent "Game Status is HITTING"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\GameActivity.java
+Line:48	"Click BET button" hasNextEvent "Flip Dealer First Card"
+Line:52	"Enable HIT Button" hasNextEvent "Click HIT Button"
+Line:57	"Click HIT Button" isAlternateEventOf "Click STAY Button"
+
+Location:C:\Users\Fahim\git\EFBO-PCM\EFBO\Resources\Annotated-Sources\AndroidBlackJack\MainActivity.java
+Line:11	MainActivityClass hasInteractionWith client-agent

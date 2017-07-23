@@ -1,0 +1,12 @@
+Program launched at Wed May 24 02:23:31 EDT 2017
+May 24, 2017 2:23:31 AM net.sourceforge.plantumldependency.cli.main.program.PlantUMLDependencyProgram main SEVERE: [error-plantuml-dependency-cli-029] : An error has occured while running PlantUML Dependency, please check the log for more information
+net.sourceforge.plantumldependency.cli.exception.PlantUMLDependencyException: [error-plantuml-dependency-cli-029] : An error has occured while running PlantUML Dependency, please check the log for more information
+	at net.sourceforge.plantumldependency.cli.main.program.PlantUMLDependencyProgram.processProgramArguments(PlantUMLDependencyProgram.java:135)
+	at net.sourceforge.plantumldependency.cli.main.program.PlantUMLDependencyProgram.main(PlantUMLDependencyProgram.java:106)
+Caused by: net.sourceforge.plantumldependency.commoncli.exception.CommandLineException: [error-plantuml-dependency-commoncli-020] : No option executions have been found, nothing to execute, nothing to do
+	at net.sourceforge.plantumldependency.commoncli.program.impl.JavaProgramImpl.parseCommandLine(JavaProgramImpl.java:812)
+	at net.sourceforge.plantumldependency.cli.main.program.PlantUMLDependencyProgram.processProgramArguments(PlantUMLDependencyProgram.java:131)
+	... 1 more
+
+Program finished at Wed May 24 02:23:31 EDT 2017
+
