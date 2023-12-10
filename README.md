@@ -1,5 +1,6 @@
 # The EFBO-Based Functional Consistency Validation System
-This repository contains all the files relevant to the EFBO-Based Functional Consistency System. The system is written in Java and uses OWL API for its ontology-based reasoning.
+This repository contains all the files relevant to the EFBO-Based Functional Consistency System. 
+To facilitate the validation process, we have developed an end-to-end software system called the EFBO-Based Consistency Validation System. The system is implemented in Java and uses OWL-API 4.3 for its various ontology-related operations and reasoning.
 
 ## The EFBO-Based Validation Process: A General Overview
 This is a novel approach to comparing functionality between two systems that utilize the benefits of an ontology along with its powerful logical reasoning capabilities. This kind of consistency validation can be useful for cross-platform applications that are developed
@@ -15,10 +16,7 @@ Next, the functionality models for each of the sources have to be integrated int
 At this point, the reasoner can also generate a mappable list of events for each of the source systems. The actual mappings of events are assumed to be a manual process that involves checking the events that are classified under the `System-I Event` and the `System-II Event` of the `EFBO-V` ontology. It should be noted that only the event entities of the sources need to be mapped. The mapping of other entities such as the interfaces and agents can be inferred automatically as mappable entities for each of the mapping events between the source systems.
 
 ## The EFBO-Based Validation System Architecture
-To facilitate the validation process, we have developed an end-to-end software system called the EFBO-Based Consistency Validation System. The system is implemented in Java and uses OWL-API 4.3 for its various ontology-related operations. The system is divided into  five constituent modules each of which is assigned to managing different tasks within the validation process. These include the EFBO Validation Manager, Annotation Extraction Manager, Knowledgebase Manager, Mapping Events Manager, and Consistency Status Report Manager. Each of these modules corresponds to a Java class with different attributes and properties.
-
-The following diagram presents the cross-functional swimming lane diagram of the EFBO validation system architecture. The first lane in the figure illustrates the tasks of the EFBO User Interface Manager. The manager provides a set of user interaction points for the six
-step consistency validation process and delegate the corresponding tasks to the rest of the EFBO managers.
+The system is divided into five constituent modules each of which is assigned to managing different tasks within the validation process. These include the `EFBO Validation Manager`, `Annotation Extraction Manager`, `Knowledgebase Manager`, `Mapping Events Manager`, and `Consistency Status Report Manager`. Each of these modules corresponds to a Java class with different attributes and properties. The following diagram presents the cross-functional swimming lane diagram of the EFBO validation system architecture. The first lane in the figure illustrates the tasks of the EFBO User Interface Manager. The manager provides a set of user interaction points for the six-step consistency validation process and delegates the corresponding tasks to the rest of the EFBO managers.
 
 ![Alt text](https://github.com/smtifahim/EFBO-Project/blob/master/EFBO-Swimlane.png?raw=true "EFBO Architecure")
 **Figure:** The EFBO-Based Consistency Validation Architecture.
