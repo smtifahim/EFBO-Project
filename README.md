@@ -1,4 +1,4 @@
-# The EFBO-Based Functional Consistency Validation System
+# The EFBO-Based Consistency Validation System
 
 This repository contains the files relevant to the EFBO-Based Functional Consistency Validation System as part of a Software Engineering thesis. This thesis introduces a novel approach to comparing functionality between two systems that utilizes the benefits of an ontology along with its powerful logical reasoning capabilities. This kind of consistency validation can be useful for cross-platform applications that are developed and evolved independently with the same set of functional goals. As a proof-of-concept of the validation process introduced in the thesis, we have developed this end-to-end software system called the `EFBO Consistency Validation System`. The system is implemented in Java and uses OWL-API 4.3 for its various ontology-related operations and reasoning.
 
